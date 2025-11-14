@@ -735,7 +735,7 @@ Fake Out [31], Dark Pulse (34)
 + TM: Compatibility with HM03, Surf.
 #284 Masquerain
 + Type Change: Bug/Flying Bug/Water
-+ Ability: Levitate {1}, Levitate
++ Ability: Levitate {1}, Levitate {2}
 + Stat Change: Special Attack (100), Special Defense (102), Speed (90), Total (484)
 + Base Experience Change: 128 158
 + Level Up Moves: Air Cutter {22}, Hydro Pump (67)
@@ -927,7 +927,7 @@ Hand {[29]}, Thunderbolt (33), Baton Pass (49)
 #359 Absol
 + Level Up Moves: Megahorn (71)
 #362 Glalie
-+ Ability: Levitate {1, 2}
++ Ability: Levitate {1}, Levitate {2}
 + TM: Compatibility with TM71, Stone Edge, TM80, Rock Slide, HM04, Strength and
 HM06 Rock Smash.
 + Type Change: Ice Ice / Rock
@@ -1208,7 +1208,7 @@ Pulse [50]
 + Stat Changes: Special Attack (85), Total (535)
 + Level Up Moves: Block [17], AncientPower (21), Earth Power [37], Sandstorm [79]
 #478 Froslass
-+ Ability: Levitate {1, 2}
++ Ability: Levitate {1}, Levitate {2}
 + Stat Change: Special Attack (100), Total (500)
 + Level Up Moves: Head Smash (42), Aura Sphere (67)
 #485 Heatran
@@ -1222,7 +1222,7 @@ Pulse [50]
 
 
 
-// Follow ups
+// MANUAL RESOLUTION
 // eevee
 // unknown
 // wormdam

@@ -1,13 +1,10 @@
 // 1. Read from sgss.txt
 // 2. Split the content by pound sign
-import fs, {statfsSync} from "fs";
-import { Pokedex } from "./pokedex.js";
-// const fs = require("fs");
+const fs = require("fs");
+const { Pokedex } = require("./pokedex.js");
 const data = fs.readFileSync("sgss.txt", "utf-8");
 
 const entries = data.split("#").slice(1);
-
-console.log(entries);
 
 const output = {};
 
@@ -17,23 +14,39 @@ entries.forEach(entry => {
 	const header = lines[0];
 	const pokemonName = header.split(" ")[1].toLowerCase();
 
-	let ability = null;
+	let abilities = null;
 	let baseStats = null;
 
 	lines.forEach(line => {
 		if (line.includes('+ Ability:')) {
-			ability = line.split(': ')[1].trim();
+			abilities = formatAbilities(pokemonName, line.split(': ')[1].trim());
 		}
 
 		if (line.includes('+ Stat Changes:')) {
 			baseStats = formatStats(pokemonName, line.split(': ')[1].trim());
+			console.log({ pokemonName, baseStats });
 		}
 	});
 
-	if (ability) {
-		output[poe]
+	// If there are no ability nor base stat changes, we don't need to define this entry in the modded pokedex
+	if (!abilities && !baseStats) {
+		return;
+	}
+	// Becasue pokedex.ts at the root of the data folder defines these stats by default,
+	// We want to make sure we include these properties if they actually exist to avoid overrides
+	output[pokemonName] = {
+		inherit: true,
+	};
+
+	if (abilities) {
+		output[pokemonName].abilities = abilities;
+	}
+	if (baseStats) {
+		output[pokemonName].baseStats = baseStats;
 	}
 });
+
+console.log(output);
 
 function formatStats(pokemon, stat) {
 	const map = {
@@ -44,13 +57,12 @@ function formatStats(pokemon, stat) {
 		'Speed': 'spe',
 		'Special Defense': 'spd',
 	};
-
-	const original = Pokedex[pokemon === "farfetch’d" ? "farfetchd" : pokemon].baseStats;
+	const original = getPokemon(pokemon).baseStats;
 	const updated = {};
-	const stats = stat.split(', ').filter(stat => !stat.includes("Total ("));
+	const stats = stat.split(', ').filter(item => !item.includes("Total"));
 	stats.forEach(stat => {
 		// ex: "Special Attack (112)"
-		const match = stat.match(/(\w[\w\s]*)\s\((\d+)\)/);
+		const match = stat.match(/(.+?)\s*\((\d+)\)/);
 
 		if (match) {
 			const name = match[1].trim();
@@ -61,9 +73,24 @@ function formatStats(pokemon, stat) {
 	return { ...original, ...updated };
 }
 
-// function formatAbilities(abilityStr) {
-// 	const formatted = {}
-// 	const abilities = abilityStr.split(', ');
-// 	// abilities.forEach(ability => {
-// 	// const match = ability.match(/[\w\s]*\s{\d+}/);
-// }
+function formatAbilities(pokemon, abilityStr) {
+	const original = getPokemon(pokemon).abilities;
+	const abilities = abilityStr.split(', ');
+	abilities.forEach(ability => {
+		// ex: Sniper {1}, Thick Fat {2}
+		// ex: Torrent
+		const match = ability.match(/(.+?)(?: \{(\d)\})?$/);
+
+		if (match) {
+			const name = match[1].trim();
+			const slot = match[2] ? parseInt(match[2]) : 1;
+
+			original[slot === 1 ? 0 : 1] = name;
+		}
+	});
+	return original;
+};
+
+function getPokemon(pokemon) {
+	return Pokedex[pokemon === "farfetch’d" ? "farfetchd" : pokemon];
+};
