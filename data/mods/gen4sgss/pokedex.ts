@@ -707,7 +707,6 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 				spa: 60,
 				spd: 60,
 				spe: 60,
-				undefined: 80,
 			},
 		},
 		flygon: {
