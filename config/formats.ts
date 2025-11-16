@@ -24,10 +24,10 @@ export const Formats: import("../sim/dex-formats").FormatList = [
 		section: "Steam Games",
 	},
 	{
-		name: "[SGSS] Sacred Gold & Storm Silver OU",
+		name: "Sacred Gold & Storm Silver",
 		desc: "A list of Pokémon used in the Sacred Gold and Storm Silver available to the Steam Games community server",
 		mod: "gen4sgss", // Uses custom pokemon mod data
-		ruleset: ["[Gen 4]"],
+		ruleset: ["Standard"],
 	},
 
 	// S/V Singles
