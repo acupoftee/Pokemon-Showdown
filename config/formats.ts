@@ -24,7 +24,7 @@ export const Formats: import("../sim/dex-formats").FormatList = [
 		section: "Steam Games",
 	},
 	{
-		name: "Sacred Gold & Storm Silver",
+		name: "[Gen 4] Sacred Gold & Storm Silver",
 		desc: "A list of Pokémon used in the Sacred Gold and Storm Silver available to the Steam Games community server",
 		mod: "gen4sgss", // Uses custom pokemon mod data
 		ruleset: ["Standard"],
