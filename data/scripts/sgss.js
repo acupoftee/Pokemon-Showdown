@@ -24,7 +24,6 @@ entries.forEach(entry => {
 
 		if (line.includes('+ Stat Changes:')) {
 			baseStats = formatStats(pokemonName, line.split(': ')[1].trim());
-			console.log({ pokemonName, baseStats });
 		}
 	});
 
@@ -36,6 +35,7 @@ entries.forEach(entry => {
 	// We want to make sure we include these properties if they actually exist to avoid overrides
 	output[pokemonName] = {
 		inherit: true,
+		unreleasedHidden: true,
 	};
 
 	if (abilities) {
@@ -46,7 +46,13 @@ entries.forEach(entry => {
 	}
 });
 
-console.log(output);
+// fs.writeFileSync('output.json', JSON.stringify(output, null, 2), 'utf-8', err => {
+// 	if (err) {
+// 		console.error('Error writing stat updates to file:', err);
+// 	} else {
+// 		console.log('Pokemon data successfully written to output.json');
+// 	}
+// });
 
 function formatStats(pokemon, stat) {
 	const map = {
