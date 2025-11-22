@@ -24,9 +24,9 @@ export const Formats: import("../sim/dex-formats").FormatList = [
 		section: "Steam Games",
 	},
 	{
-		name: "[Gen 4] Sacred Gold & Storm Silver",
+		name: "[Gen 5] Sacred Gold & Storm Silver",
 		desc: "A list of Pokémon used in the Sacred Gold and Storm Silver available to the Steam Games community server",
-		mod: "gen4sgss", // Uses custom pokemon mod data
+		mod: "gen5sgss", // Uses custom pokemon mod data
 		ruleset: ["Standard"],
 	},
 
@@ -1278,14 +1278,14 @@ export const Formats: import("../sim/dex-formats").FormatList = [
 				problems.push(`The move ${move.name} is fully banned.`);
 			}
 			const accuracyLoweringMove = move.secondaries?.some(
-				secondary =>
+				(secondary) =>
 					secondary.boosts?.accuracy && secondary.boosts?.accuracy < 0
 			);
 			const flinchMove = move.secondaries?.some(
-				secondary => secondary.volatileStatus === "flinch"
+				(secondary) => secondary.volatileStatus === "flinch"
 			);
 			const freezeMove =
-				move.secondaries?.some(secondary => secondary.status === "frz") ||
+				move.secondaries?.some((secondary) => secondary.status === "frz") ||
 				move.id === "triattack";
 			if (
 				this.ruleTable.isRestricted(`move:${move.id}`) ||
@@ -1440,7 +1440,7 @@ export const Formats: import("../sim/dex-formats").FormatList = [
 			}
 		},
 		onModifySecondaries(secondaries, target, source, move) {
-			if (secondaries.some(s => !!s.self)) move.selfDropped = false;
+			if (secondaries.some((s) => !!s.self)) move.selfDropped = false;
 		},
 		onAfterMoveSecondaryPriority: 1,
 		onAfterMoveSecondarySelf(source, target, move) {
@@ -1936,9 +1936,9 @@ export const Formats: import("../sim/dex-formats").FormatList = [
 						item.forcedForme === species.name) &&
 						!item.megaStone &&
 						!item.isPrimalOrb) ||
-						(natdex &&
-							species.name.startsWith("Necrozma-") &&
-							item.id === "ultranecroziumz")
+					(natdex &&
+						species.name.startsWith("Necrozma-") &&
+						item.id === "ultranecroziumz")
 				) {
 					continue;
 				}
@@ -1975,8 +1975,8 @@ export const Formats: import("../sim/dex-formats").FormatList = [
 					"-start",
 					pokemon,
 					originalSpecies.requiredItems?.[0] ||
-					originalSpecies.requiredItem ||
-					originalSpecies.requiredMove,
+						originalSpecies.requiredItem ||
+						originalSpecies.requiredMove,
 					"[silent]"
 				);
 				const oSpecies = this.dex.species.get(pokemon.m.originalSpecies);
@@ -2007,8 +2007,8 @@ export const Formats: import("../sim/dex-formats").FormatList = [
 					"-end",
 					pokemon,
 					originalSpecies.requiredItems?.[0] ||
-					originalSpecies.requiredItem ||
-					originalSpecies.requiredMove,
+						originalSpecies.requiredItem ||
+						originalSpecies.requiredMove,
 					"[silent]"
 				);
 			}
@@ -2366,9 +2366,9 @@ export const Formats: import("../sim/dex-formats").FormatList = [
 						this.add(
 							"-message",
 							`${pokemon.side.name}'s ${
-								pokemon.name !== pokemon.species.name ?
-									`${pokemon.name} (${pokemon.species.name})` :
-									pokemon.name
+								pokemon.name !== pokemon.species.name
+									? `${pokemon.name} (${pokemon.species.name})`
+									: pokemon.name
 							} will be skipped next turn.`
 						);
 					} else {
@@ -2396,10 +2396,10 @@ export const Formats: import("../sim/dex-formats").FormatList = [
 		},
 		side: {
 			allies(all?: boolean) {
-				let allies = this.active.filter(ally => ally);
+				let allies = this.active.filter((ally) => ally);
 				if (!all)
 					allies = allies.filter(
-						ally => ally.hp && !ally.volatiles["commanding"]
+						(ally) => ally.hp && !ally.volatiles["commanding"]
 					);
 				return allies;
 			},
@@ -2880,7 +2880,7 @@ export const Formats: import("../sim/dex-formats").FormatList = [
 			const crossNonstandard =
 				(!this.ruleTable.has("natdexmod") &&
 					crossSpecies.isNonstandard === "Past") ||
-					crossSpecies.isNonstandard === "Future";
+				crossSpecies.isNonstandard === "Future";
 			const crossIsCap =
 				!this.ruleTable.has("+pokemontag:cap") &&
 				crossSpecies.isNonstandard === "CAP";
@@ -2980,8 +2980,8 @@ export const Formats: import("../sim/dex-formats").FormatList = [
 			mixedSpecies.weightkg = Math.max(
 				0.1,
 				species.weightkg +
-				crossSpecies.weightkg -
-				crossPrevoSpecies.weightkg
+					crossSpecies.weightkg -
+					crossPrevoSpecies.weightkg
 			).toFixed(1);
 			mixedSpecies.nfe = false;
 			mixedSpecies.evos = [];
@@ -3923,13 +3923,13 @@ export const Formats: import("../sim/dex-formats").FormatList = [
 					return tr(
 						(tr(
 							2 * stat +
-							set.ivs[statName] +
-							tr(set.evs[statName] / 4) +
-							100
+								set.ivs[statName] +
+								tr(set.evs[statName] / 4) +
+								100
 						) *
-						set.level) /
-						100 +
-						10
+							set.level) /
+							100 +
+							10
 					);
 				}
 				stat = tr(
@@ -3939,9 +3939,9 @@ export const Formats: import("../sim/dex-formats").FormatList = [
 						5
 				);
 				if (nature.plus === statName) {
-					stat = this.ruleTable.has("overflowstatmod") ?
-						Math.min(stat, 595) :
-						stat;
+					stat = this.ruleTable.has("overflowstatmod")
+						? Math.min(stat, 595)
+						: stat;
 					stat = tr(tr(stat * 110, 16) / 100);
 				}
 				return stat;
@@ -4036,7 +4036,7 @@ export const Formats: import("../sim/dex-formats").FormatList = [
 				"wanderingspirit",
 			];
 			const ally = pokemon.side.active.find(
-				mon => mon && mon !== pokemon && !mon.fainted
+				(mon) => mon && mon !== pokemon && !mon.fainted
 			);
 			if (ally && ally.ability !== pokemon.ability) {
 				if (
@@ -4082,7 +4082,7 @@ export const Formats: import("../sim/dex-formats").FormatList = [
 				delete pokemon.m.innate;
 			}
 			const ally = pokemon.side.active.find(
-				mon => mon && mon !== pokemon && !mon.fainted
+				(mon) => mon && mon !== pokemon && !mon.fainted
 			);
 			if (ally?.m.innate) {
 				ally.removeVolatile(ally.m.innate);
@@ -4095,7 +4095,7 @@ export const Formats: import("../sim/dex-formats").FormatList = [
 				delete pokemon.m.innate;
 			}
 			const ally = pokemon.side.active.find(
-				mon => mon && mon !== pokemon && !mon.fainted
+				(mon) => mon && mon !== pokemon && !mon.fainted
 			);
 			if (ally?.m.innate) {
 				ally.removeVolatile(ally.m.innate);
@@ -4261,11 +4261,11 @@ export const Formats: import("../sim/dex-formats").FormatList = [
 			const species = this.dex.species.get(set.species);
 			const unSeenAbilities = Object.keys(species.abilities)
 				.filter(
-					key =>
+					(key) =>
 						key !== "S" && (key !== "H" || !species.unreleasedHidden)
 				)
-				.map(key => species.abilities[key as "0" | "1" | "H" | "S"])
-				.filter(ability => ability !== set.ability);
+				.map((key) => species.abilities[key as "0" | "1" | "H" | "S"])
+				.filter((ability) => ability !== set.ability);
 			if (
 				unSeenAbilities.length &&
 				this.toID(set.ability) !== this.toID(species.abilities["S"])
@@ -4289,16 +4289,16 @@ export const Formats: import("../sim/dex-formats").FormatList = [
 				}
 				pokemon.m.innates = Object.keys(pokemon.species.abilities)
 					.filter(
-						key =>
+						(key) =>
 							key !== "S" &&
 							(key !== "H" || !pokemon.species.unreleasedHidden)
 					)
-					.map(key =>
+					.map((key) =>
 						this.toID(
 							pokemon.species.abilities[key as "0" | "1" | "H" | "S"]
 						)
 					)
-					.filter(ability => ability !== pokemon.ability);
+					.filter((ability) => ability !== pokemon.ability);
 			}
 		},
 		onBeforeSwitchIn(pokemon) {
@@ -4314,14 +4314,14 @@ export const Formats: import("../sim/dex-formats").FormatList = [
 			}
 		},
 		onSwitchOut(pokemon) {
-			for (const innate of Object.keys(pokemon.volatiles).filter(i =>
+			for (const innate of Object.keys(pokemon.volatiles).filter((i) =>
 				i.startsWith("ability:")
 			)) {
 				pokemon.removeVolatile(innate);
 			}
 		},
 		onFaint(pokemon) {
-			for (const innate of Object.keys(pokemon.volatiles).filter(i =>
+			for (const innate of Object.keys(pokemon.volatiles).filter((i) =>
 				i.startsWith("ability:")
 			)) {
 				const innateEffect = this.dex.conditions.get(innate) as Effect;
@@ -4329,7 +4329,7 @@ export const Formats: import("../sim/dex-formats").FormatList = [
 			}
 		},
 		onAfterMega(pokemon) {
-			for (const innate of Object.keys(pokemon.volatiles).filter(i =>
+			for (const innate of Object.keys(pokemon.volatiles).filter((i) =>
 				i.startsWith("ability:")
 			)) {
 				pokemon.removeVolatile(innate);
@@ -4550,7 +4550,7 @@ export const Formats: import("../sim/dex-formats").FormatList = [
 					if (pokemove.exists) {
 						pokemon.m.pokemoves.push(pokemove);
 						const idx = pokemon.moveSlots.findIndex(
-							x => x.id === pokemove.id
+							(x) => x.id === pokemove.id
 						);
 						if (idx >= 0) {
 							pokemon.moveSlots[idx] = pokemon.baseMoveSlots[idx] = {
@@ -4587,14 +4587,14 @@ export const Formats: import("../sim/dex-formats").FormatList = [
 				move.flags = {};
 				move.flags["protect"] = 1;
 				move.category =
-					species.baseStats["spa"] > species.baseStats["atk"] ?
-						"Special" :
-						species.baseStats["spa"] < species.baseStats["atk"] ?
-							"Physical" :
-							pokemon.getStat("atk", false, true) >
-							pokemon.getStat("spa", false, true) ?
-								"Physical" :
-								"Special";
+					species.baseStats["spa"] > species.baseStats["atk"]
+						? "Special"
+						: species.baseStats["spa"] < species.baseStats["atk"]
+						? "Physical"
+						: pokemon.getStat("atk", false, true) >
+						  pokemon.getStat("spa", false, true)
+						? "Physical"
+						: "Special";
 				move.onAfterHit = function (t, s, m) {
 					if (s.getAbility().name === species.abilities["0"]) return;
 					const effect = "ability:" + this.toID(species.abilities["0"]);
@@ -5201,7 +5201,7 @@ export const Formats: import("../sim/dex-formats").FormatList = [
 				if (isCrit) {
 					baseDamage = tr(
 						baseDamage *
-						(move.critModifier || (this.battle.gen >= 6 ? 1.5 : 2))
+							(move.critModifier || (this.battle.gen >= 6 ? 1.5 : 2))
 					);
 				}
 
@@ -5623,8 +5623,8 @@ export const Formats: import("../sim/dex-formats").FormatList = [
 				this.inputLog.push(`>tiebreak`);
 				this.add("message", "Time's up! Going to tiebreaker...");
 				const notFainted = this.sides.map(
-					side =>
-						side.pokemon.filter(pokemon => !pokemon.fainted).length
+					(side) =>
+						side.pokemon.filter((pokemon) => !pokemon.fainted).length
 				);
 				this.add(
 					"-message",
@@ -5643,12 +5643,12 @@ export const Formats: import("../sim/dex-formats").FormatList = [
 				}
 
 				const hpPercentage = tiedSides.map(
-					side =>
+					(side) =>
 						(side.pokemon
-							.map(pokemon => pokemon.hp / pokemon.maxhp)
+							.map((pokemon) => pokemon.hp / pokemon.maxhp)
 							.reduce((a, b) => a + b) *
 							100) /
-							6
+						6
 				);
 				this.add(
 					"-message",
@@ -5669,8 +5669,8 @@ export const Formats: import("../sim/dex-formats").FormatList = [
 					return this.win(tiedSides[1]);
 				}
 
-				const hpTotal = tiedSides.map(side =>
-					side.pokemon.map(pokemon => pokemon.hp).reduce((a, b) => a + b)
+				const hpTotal = tiedSides.map((side) =>
+					side.pokemon.map((pokemon) => pokemon.hp).reduce((a, b) => a + b)
 				);
 				this.add(
 					"-message",
@@ -6059,9 +6059,9 @@ export const Formats: import("../sim/dex-formats").FormatList = [
 			} else if (move.type === "Stellar") {
 				move.category =
 					pokemon.getStat("atk", false, true) >
-					pokemon.getStat("spa", false, true) ?
-						"Physical" :
-						"Special";
+					pokemon.getStat("spa", false, true)
+						? "Physical"
+						: "Special";
 			} else {
 				move.category = "Physical";
 			}
@@ -6611,10 +6611,10 @@ export const Formats: import("../sim/dex-formats").FormatList = [
 			const species = this.dex.species.get(set.species);
 			if (
 				set.moves
-					.map(x => this.toID(this.dex.moves.get(x).realMove) || x)
+					.map((x) => this.toID(this.dex.moves.get(x).realMove) || x)
 					.includes("hiddenpower") &&
-					species.baseSpecies !== "Unown" &&
-					!this.ruleTable.has(`+move:hiddenpower`)
+				species.baseSpecies !== "Unown" &&
+				!this.ruleTable.has(`+move:hiddenpower`)
 			) {
 				return [`Hidden Power is banned.`];
 			}
@@ -7653,11 +7653,11 @@ export const Formats: import("../sim/dex-formats").FormatList = [
 		onSwitchIn(pokemon) {
 			if (
 				(pokemon.illusion || pokemon).getTypes(true, true).join("/") !==
-				this.dex
-					.forGen(9)
-					.species.get((pokemon.illusion || pokemon).species.name)
-					.types.join("/") &&
-					!pokemon.terastallized
+					this.dex
+						.forGen(9)
+						.species.get((pokemon.illusion || pokemon).species.name)
+						.types.join("/") &&
+				!pokemon.terastallized
 			) {
 				this.add(
 					"-start",
@@ -7725,11 +7725,11 @@ export const Formats: import("../sim/dex-formats").FormatList = [
 		onSwitchIn(pokemon) {
 			if (
 				(pokemon.illusion || pokemon).getTypes(true, true).join("/") !==
-				this.dex
-					.forGen(9)
-					.species.get((pokemon.illusion || pokemon).species.name)
-					.types.join("/") &&
-					!pokemon.terastallized
+					this.dex
+						.forGen(9)
+						.species.get((pokemon.illusion || pokemon).species.name)
+						.types.join("/") &&
+				!pokemon.terastallized
 			) {
 				this.add(
 					"-start",
@@ -7944,11 +7944,11 @@ export const Formats: import("../sim/dex-formats").FormatList = [
 			}
 			if (
 				(pokemon.illusion || pokemon).getTypes(true, true).join("/") !==
-				this.dex
-					.forGen(9)
-					.species.get((pokemon.illusion || pokemon).species.name)
-					.types.join("/") &&
-					!pokemon.terastallized
+					this.dex
+						.forGen(9)
+						.species.get((pokemon.illusion || pokemon).species.name)
+						.types.join("/") &&
+				!pokemon.terastallized
 			) {
 				this.add(
 					"-start",
@@ -11434,7 +11434,7 @@ export const Formats: import("../sim/dex-formats").FormatList = [
 				}
 				return positions;
 			}
-			const restrictedCount = positions.filter(pos =>
+			const restrictedCount = positions.filter((pos) =>
 				this.ruleTable.isRestrictedSpecies(pokemon[pos].species)
 			).length;
 			if (restrictedCount > 2) {
