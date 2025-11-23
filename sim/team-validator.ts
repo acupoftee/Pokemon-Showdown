@@ -324,6 +324,7 @@ export class TeamValidator {
 	readonly toID: (str: any) => ID;
 	constructor(format: string | Format, dex = Dex) {
 		this.format = dex.formats.get(format);
+
 		if (this.format.effectType !== 'Format') {
 			throw new Error(`format '${format}' should be a 'Format', but was a '${this.format.effectType}'`);
 		}
@@ -478,7 +479,6 @@ export class TeamValidator {
 		if (format.onValidateTeam) {
 			problems = problems.concat(format.onValidateTeam.call(this, team, format, teamHas) || []);
 		}
-
 		if (!problems.length) return null;
 		return problems;
 	}
@@ -2474,7 +2474,7 @@ export class TeamValidator {
 
 		let limit1 = true;
 		let sketch = false;
-		let blockedHM = false;
+		const blockedHM = false;
 
 		let babyOnly = '';
 		let minLearnGen = dex.gen;
@@ -2565,18 +2565,18 @@ export class TeamValidator {
 					}
 					continue;
 				}
-				if (learnedGen < this.minSourceGen && !canUseHomeRelearner) {
-					if (!cantLearnReason) {
-						cantLearnReason = `can't be transferred from Gen ${learnedGen} to ${this.minSourceGen}.`;
-					}
-					continue;
-				}
-				if (noFutureGen && learnedGen > dex.gen) {
-					if (!cantLearnReason) {
-						cantLearnReason = `can't be transferred from Gen ${learnedGen} to ${dex.gen}.`;
-					}
-					continue;
-				}
+				// if (learnedGen < this.minSourceGen && !canUseHomeRelearner) {
+				// 	if (!cantLearnReason) {
+				// 		cantLearnReason = `can't be transferred from Gen ${learnedGen} to ${this.minSourceGen}.`;
+				// 	}
+				// 	continue;
+				// }
+				// if (noFutureGen && learnedGen > dex.gen) {
+				// 	if (!cantLearnReason) {
+				// 		cantLearnReason = `can't be transferred from Gen ${learnedGen} to ${dex.gen}.`;
+				// 	}
+				// 	continue;
+				// }
 
 				if (learnedGen === 9 && learned.charAt(1) !== 'S') canUseHomeRelearner = true;
 
@@ -2588,14 +2588,14 @@ export class TeamValidator {
 					continue;
 				}
 
-				const canUseAbilityPatch = dex.gen >= 8 && format.mod !== 'gen8dlc1';
-				if (
-					learnedGen < 7 && setSources.isHidden && !canUseAbilityPatch &&
-					!dex.mod(`gen${learnedGen}`).species.get(baseSpecies.name).abilities['H']
-				) {
-					cantLearnReason = `can only be learned in gens without Hidden Abilities.`;
-					continue;
-				}
+				// const canUseAbilityPatch = dex.gen >= 8 && format.mod !== 'gen8dlc1';
+				// if (
+				// 	learnedGen < 7 && setSources.isHidden && !canUseAbilityPatch &&
+				// 	!dex.mod(`gen${learnedGen}`).species.get(baseSpecies.name).abilities['H']
+				// ) {
+				// 	cantLearnReason = `can only be learned in gens without Hidden Abilities.`;
+				// 	continue;
+				// }
 
 				const ability = dex.abilities.get(set.ability);
 				if (dex.gen < 6 && ability.gen > learnedGen && !checkingPrevo) {
@@ -2604,23 +2604,23 @@ export class TeamValidator {
 					continue;
 				}
 
-				if (species.isNonstandard !== 'CAP') {
-					// HMs can't be transferred
-					if (dex.gen >= 4 && learnedGen <= 3 && [
-						'cut', 'fly', 'surf', 'strength', 'flash', 'rocksmash', 'waterfall', 'dive',
-					].includes(moveid)) {
-						cantLearnReason = `can't be transferred from Gen 3 to 4 because it's an HM move.`;
-						continue;
-					}
-					if (dex.gen >= 5 && learnedGen <= 4 && [
-						'cut', 'fly', 'surf', 'strength', 'rocksmash', 'waterfall', 'rockclimb',
-					].includes(moveid)) {
-						cantLearnReason = `can't be transferred from Gen 4 to 5 because it's an HM move.`;
-						continue;
-					}
-					// Defog and Whirlpool can't be transferred together
-					if (dex.gen >= 5 && ['defog', 'whirlpool'].includes(moveid) && learnedGen <= 4) blockedHM = true;
-				}
+				// if (species.isNonstandard !== 'CAP') {
+				// 	// HMs can't be transferred
+				// 	if (dex.gen >= 4 && learnedGen <= 3 && [
+				// 		'cut', 'fly', 'surf', 'strength', 'flash', 'rocksmash', 'waterfall', 'dive',
+				// 	].includes(moveid)) {
+				// 		cantLearnReason = `can't be transferred from Gen 3 to 4 because it's an HM move.`;
+				// 		continue;
+				// 	}
+				// 	if (dex.gen >= 5 && learnedGen <= 4 && [
+				// 		'cut', 'fly', 'surf', 'strength', 'rocksmash', 'waterfall', 'rockclimb',
+				// 	].includes(moveid)) {
+				// 		cantLearnReason = `can't be transferred from Gen 4 to 5 because it's an HM move.`;
+				// 		continue;
+				// 	}
+				// 	// Defog and Whirlpool can't be transferred together
+				// 	if (dex.gen >= 5 && ['defog', 'whirlpool'].includes(moveid) && learnedGen <= 4) blockedHM = true;
+				// }
 
 				if (learned.charAt(1) === 'L') {
 					// special checking for level-up moves

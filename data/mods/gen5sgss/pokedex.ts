@@ -2,7 +2,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 	{
 		bulbasaur: {
 			inherit: true,
-			unreleasedHidden: true,
+
 			abilities: {
 				0: "Chlorophyll",
 				H: "Chlorophyll",
@@ -10,7 +10,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		ivysaur: {
 			inherit: true,
-			unreleasedHidden: true,
+
 			abilities: {
 				0: "Chlorophyll",
 				H: "Chlorophyll",
@@ -18,7 +18,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		venusaur: {
 			inherit: true,
-			unreleasedHidden: true,
+
 			abilities: {
 				0: "Chlorophyll",
 				H: "Chlorophyll",
@@ -26,66 +26,66 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		charmander: {
 			inherit: true,
-			unreleasedHidden: true,
+
 			abilities: {
 				0: "Solar Power",
-				H: "Solar Power",
+				1: "Solar Power",
 			},
 		},
 		charmeleon: {
 			inherit: true,
-			unreleasedHidden: true,
+
 			abilities: {
 				0: "Solar Power",
-				H: "Solar Power",
+				1: "Solar Power",
 			},
 		},
 		charizard: {
 			inherit: true,
-			unreleasedHidden: true,
+
 			abilities: {
 				0: "Solar Power",
-				H: "Solar Power",
+				1: "Solar Power",
 			},
 		},
 		squirtle: {
 			inherit: true,
-			unreleasedHidden: true,
+
 			abilities: {
 				0: "Rain Dish",
-				H: "Rain Dish",
+				1: "Rain Dish",
 			},
 		},
 		wartortle: {
 			inherit: true,
-			unreleasedHidden: true,
+
 			abilities: {
 				0: "Rain Dish",
-				H: "Rain Dish",
+				1: "Rain Dish",
 			},
 		},
 		blastoise: {
 			inherit: true,
-			unreleasedHidden: true,
+
 			abilities: {
 				0: "Rain Dish",
-				H: "Rain Dish",
+				1: "Rain Dish",
 			},
 		},
 		caterpie: {
 			inherit: true,
-			unreleasedHidden: true,
+
 			abilities: {
 				0: "Run Away",
-				H: "Run Away",
+				1: "Run Away",
 			},
 		},
 		butterfree: {
 			inherit: true,
-			unreleasedHidden: true,
+
 			abilities: {
 				0: "Tinted Lens",
-				H: "Tinted Lens",
+				1: "Tinted Lens",
 			},
 			baseStats: {
 				hp: 1060,
@@ -98,7 +98,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		weedle: {
 			inherit: true,
-			unreleasedHidden: true,
+
 			abilities: {
 				0: "Run Away",
 				H: "Run Away",
@@ -106,7 +106,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		beedrill: {
 			inherit: true,
-			unreleasedHidden: true,
+
 			abilities: {
 				0: "Sniper",
 				H: "Sniper",
@@ -122,7 +122,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		pidgeot: {
 			inherit: true,
-			unreleasedHidden: true,
+
 			baseStats: {
 				hp: 103,
 				atk: 91,
@@ -134,7 +134,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		rattata: {
 			inherit: true,
-			unreleasedHidden: true,
+
 			abilities: {
 				0: "Hustle",
 				1: "Guts",
@@ -143,7 +143,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		raticate: {
 			inherit: true,
-			unreleasedHidden: true,
+
 			abilities: {
 				0: "Hustle",
 				1: "Guts",
@@ -160,7 +160,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		spearow: {
 			inherit: true,
-			unreleasedHidden: true,
+
 			abilities: {
 				0: "Sniper",
 				H: "Sniper",
@@ -168,7 +168,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		fearow: {
 			inherit: true,
-			unreleasedHidden: true,
+
 			abilities: {
 				0: "Sniper",
 				H: "Sniper",
@@ -184,7 +184,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		arbok: {
 			inherit: true,
-			unreleasedHidden: true,
+
 			baseStats: {
 				hp: 60,
 				atk: 91,
@@ -196,7 +196,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		pikachu: {
 			inherit: true,
-			unreleasedHidden: true,
+
 			abilities: {
 				0: "Lightningrod",
 				H: "Lightning Rod",
@@ -212,7 +212,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		raichu: {
 			inherit: true,
-			unreleasedHidden: true,
+
 			abilities: {
 				0: "Lightningrod",
 				H: "Lightning Rod",
@@ -228,7 +228,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		nidoqueen: {
 			inherit: true,
-			unreleasedHidden: true,
+
 			baseStats: {
 				hp: 100,
 				atk: 92,
@@ -240,7 +240,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		nidoking: {
 			inherit: true,
-			unreleasedHidden: true,
+
 			baseStats: {
 				hp: 81,
 				atk: 97,
@@ -252,7 +252,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		clefable: {
 			inherit: true,
-			unreleasedHidden: true,
+
 			abilities: {
 				0: "Unaware",
 				1: "Magic Guard",
@@ -261,7 +261,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		vulpix: {
 			inherit: true,
-			unreleasedHidden: true,
+
 			abilities: {
 				0: "Forewarn",
 				H: "Drought",
@@ -269,15 +269,15 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		ninetales: {
 			inherit: true,
-			unreleasedHidden: true,
+
 			abilities: {
 				0: "Drought",
-				H: "Drought",
+				1: "Drought",
 			},
 		},
 		jigglypuff: {
 			inherit: true,
-			unreleasedHidden: true,
+
 			abilities: {
 				0: "Soundproof",
 				1: "Competitive",
@@ -286,7 +286,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		wigglytuff: {
 			inherit: true,
-			unreleasedHidden: true,
+
 			abilities: {
 				0: "Soundproof",
 				1: "Competitive",
@@ -303,7 +303,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		zubat: {
 			inherit: true,
-			unreleasedHidden: true,
+
 			abilities: {
 				0: "Anticipation",
 				H: "Infiltrator",
@@ -311,7 +311,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		golbat: {
 			inherit: true,
-			unreleasedHidden: true,
+
 			abilities: {
 				0: "Anticipation",
 				H: "Infiltrator",
@@ -319,7 +319,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		oddish: {
 			inherit: true,
-			unreleasedHidden: true,
+
 			abilities: {
 				0: "Run Away",
 				H: "Run Away",
@@ -327,7 +327,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		gloom: {
 			inherit: true,
-			unreleasedHidden: true,
+
 			abilities: {
 				0: "Stench",
 				H: "Stench",
@@ -335,7 +335,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		vileplume: {
 			inherit: true,
-			unreleasedHidden: true,
+
 			abilities: {
 				0: "Effect Spore",
 				H: "Effect Spore",
@@ -351,7 +351,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		parasect: {
 			inherit: true,
-			unreleasedHidden: true,
+
 			baseStats: {
 				hp: 60,
 				atk: 115,
@@ -363,7 +363,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		venomoth: {
 			inherit: true,
-			unreleasedHidden: true,
+
 			abilities: {
 				0: "Poison Heal",
 				1: "Tinted Lens",
@@ -372,7 +372,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		dugtrio: {
 			inherit: true,
-			unreleasedHidden: true,
+
 			baseStats: {
 				hp: 35,
 				atk: 100,
@@ -384,7 +384,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		persian: {
 			inherit: true,
-			unreleasedHidden: true,
+
 			baseStats: {
 				hp: 65,
 				atk: 90,
@@ -396,7 +396,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		poliwrath: {
 			inherit: true,
-			unreleasedHidden: true,
+
 			baseStats: {
 				hp: 90,
 				atk: 95,
@@ -408,7 +408,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		abra: {
 			inherit: true,
-			unreleasedHidden: true,
+
 			abilities: {
 				0: "Synchronize",
 				1: "Magic Guard",
@@ -417,7 +417,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		kadabra: {
 			inherit: true,
-			unreleasedHidden: true,
+
 			abilities: {
 				0: "Synchronize",
 				1: "Magic Guard",
@@ -426,7 +426,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		alakazam: {
 			inherit: true,
-			unreleasedHidden: true,
+
 			abilities: {
 				0: "Synchronize",
 				1: "Magic Guard",
@@ -435,7 +435,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		bellsprout: {
 			inherit: true,
-			unreleasedHidden: true,
+
 			abilities: {
 				0: "Gluttony",
 				H: "Gluttony",
@@ -443,7 +443,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		weepinbell: {
 			inherit: true,
-			unreleasedHidden: true,
+
 			abilities: {
 				0: "Gluttony",
 				H: "Gluttony",
@@ -451,7 +451,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		victreebel: {
 			inherit: true,
-			unreleasedHidden: true,
+
 			abilities: {
 				0: "Gluttony",
 				H: "Gluttony",
@@ -467,7 +467,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		ponyta: {
 			inherit: true,
-			unreleasedHidden: true,
+
 			abilities: {
 				0: "Flame Body",
 				1: "Flash Fire",
@@ -476,7 +476,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		rapidash: {
 			inherit: true,
-			unreleasedHidden: true,
+
 			abilities: {
 				0: "Flame Body",
 				1: "Flash Fire",
@@ -485,7 +485,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		"farfetch’d": {
 			inherit: true,
-			unreleasedHidden: true,
+
 			abilities: {
 				0: "Super Luck",
 				1: "Inner Focus",
@@ -502,7 +502,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		doduo: {
 			inherit: true,
-			unreleasedHidden: true,
+
 			abilities: {
 				0: "Tangled Feet",
 				1: "Early Bird",
@@ -511,7 +511,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		dodrio: {
 			inherit: true,
-			unreleasedHidden: true,
+
 			abilities: {
 				0: "Tangled Feet",
 				1: "Early Bird",
@@ -520,7 +520,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		dewgong: {
 			inherit: true,
-			unreleasedHidden: true,
+
 			baseStats: {
 				hp: 90,
 				atk: 70,
@@ -532,7 +532,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		onix: {
 			inherit: true,
-			unreleasedHidden: true,
+
 			baseStats: {
 				hp: 35,
 				atk: 80,
@@ -544,7 +544,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		krabby: {
 			inherit: true,
-			unreleasedHidden: true,
+
 			abilities: {
 				0: "Hyper Cutter",
 				1: "Shed Skin",
@@ -553,7 +553,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		kingler: {
 			inherit: true,
-			unreleasedHidden: true,
+
 			abilities: {
 				0: "Hyper Cutter",
 				1: "Shed Skin",
@@ -562,7 +562,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		voltorb: {
 			inherit: true,
-			unreleasedHidden: true,
+
 			abilities: {
 				0: "Aftermath",
 				1: "Static",
@@ -571,7 +571,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		electrode: {
 			inherit: true,
-			unreleasedHidden: true,
+
 			abilities: {
 				0: "Aftermath",
 				1: "Static",
@@ -580,7 +580,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		cubone: {
 			inherit: true,
-			unreleasedHidden: true,
+
 			abilities: {
 				0: "Rock Head",
 				1: "Battle Armor",
@@ -589,7 +589,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		marowak: {
 			inherit: true,
-			unreleasedHidden: true,
+
 			abilities: {
 				0: "Rock Head",
 				1: "Battle Armor",
@@ -606,7 +606,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		lickitung: {
 			inherit: true,
-			unreleasedHidden: true,
+
 			abilities: {
 				0: "Own Tempo",
 				1: "Cloud Nine",
@@ -615,7 +615,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		rhyhorn: {
 			inherit: true,
-			unreleasedHidden: true,
+
 			abilities: {
 				0: "Reckless",
 				1: "Rock Head",
@@ -624,7 +624,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		rhydon: {
 			inherit: true,
-			unreleasedHidden: true,
+
 			abilities: {
 				0: "Reckless",
 				1: "Rock Head",
@@ -633,7 +633,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		seadra: {
 			inherit: true,
-			unreleasedHidden: true,
+
 			baseStats: {
 				hp: 65,
 				atk: 75,
@@ -645,7 +645,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		seaking: {
 			inherit: true,
-			unreleasedHidden: true,
+
 			baseStats: {
 				hp: 80,
 				atk: 102,
@@ -657,7 +657,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		jynx: {
 			inherit: true,
-			unreleasedHidden: true,
+
 			abilities: {
 				0: "Dry Skin",
 				1: "Filter",
@@ -674,7 +674,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		electabuzz: {
 			inherit: true,
-			unreleasedHidden: true,
+
 			abilities: {
 				0: "Vital Spirit",
 				H: "Vital Spirit",
@@ -682,7 +682,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		magmar: {
 			inherit: true,
-			unreleasedHidden: true,
+
 			abilities: {
 				0: "Vital Spirit",
 				H: "Vital Spirit",
@@ -690,7 +690,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		articuno: {
 			inherit: true,
-			unreleasedHidden: true,
+
 			abilities: {
 				0: "Snow Cloak",
 				H: "Snow Cloak",
@@ -698,7 +698,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		zapdos: {
 			inherit: true,
-			unreleasedHidden: true,
+
 			abilities: {
 				0: "LightningRod",
 				H: "Static",
@@ -706,7 +706,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		moltres: {
 			inherit: true,
-			unreleasedHidden: true,
+
 			abilities: {
 				0: "Flame Body",
 				H: "Flame Body",
@@ -714,7 +714,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		dratini: {
 			inherit: true,
-			unreleasedHidden: true,
+
 			abilities: {
 				0: "Marvel Scale",
 				H: "Marvel Scale",
@@ -722,7 +722,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		dragonair: {
 			inherit: true,
-			unreleasedHidden: true,
+
 			abilities: {
 				0: "Marvel Scale",
 				H: "Marvel Scale",
@@ -730,7 +730,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		dragonite: {
 			inherit: true,
-			unreleasedHidden: true,
+
 			abilities: {
 				0: "Marvel Scale",
 				H: "Multiscale",
@@ -738,7 +738,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		mewtwo: {
 			inherit: true,
-			unreleasedHidden: true,
+
 			abilities: {
 				0: "Magic Guard",
 				H: "Unnerve",
@@ -746,14 +746,14 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		mew: {
 			inherit: true,
-			unreleasedHidden: true,
+
 			abilities: {
 				0: "Magic Guard",
 			},
 		},
 		chikorita: {
 			inherit: true,
-			unreleasedHidden: true,
+
 			abilities: {
 				0: "Natural Cure",
 				H: "Leaf Guard",
@@ -761,7 +761,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		bayleef: {
 			inherit: true,
-			unreleasedHidden: true,
+
 			abilities: {
 				0: "Natural Cure",
 				H: "Leaf Guard",
@@ -769,7 +769,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		meganium: {
 			inherit: true,
-			unreleasedHidden: true,
+
 			abilities: {
 				0: "Natural Cure",
 				H: "Leaf Guard",
@@ -777,7 +777,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		cyndaquil: {
 			inherit: true,
-			unreleasedHidden: true,
+
 			abilities: {
 				0: "Flash Fire",
 				H: "Flash Fire",
@@ -785,7 +785,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		quilava: {
 			inherit: true,
-			unreleasedHidden: true,
+
 			abilities: {
 				0: "Flash Fire",
 				H: "Flash Fire",
@@ -793,7 +793,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		typhlosion: {
 			inherit: true,
-			unreleasedHidden: true,
+
 			abilities: {
 				0: "Flash Fire",
 				H: "Flash Fire",
@@ -801,7 +801,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		totodile: {
 			inherit: true,
-			unreleasedHidden: true,
+
 			abilities: {
 				0: "Guts",
 				H: "Sheer Force",
@@ -809,7 +809,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		croconaw: {
 			inherit: true,
-			unreleasedHidden: true,
+
 			abilities: {
 				0: "Guts",
 				H: "Sheer Force",
@@ -817,7 +817,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		feraligatr: {
 			inherit: true,
-			unreleasedHidden: true,
+
 			abilities: {
 				0: "Intimidate",
 				H: "Sheer Force",
@@ -825,7 +825,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		sentret: {
 			inherit: true,
-			unreleasedHidden: true,
+
 			abilities: {
 				0: "Pickup",
 				1: "Keen Eye",
@@ -834,7 +834,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		furret: {
 			inherit: true,
-			unreleasedHidden: true,
+
 			abilities: {
 				0: "Scrappy",
 				1: "Keen Eye",
@@ -851,7 +851,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		hoothoot: {
 			inherit: true,
-			unreleasedHidden: true,
+
 			abilities: {
 				0: "Insomnia",
 				1: "Tinted Lens",
@@ -860,7 +860,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		noctowl: {
 			inherit: true,
-			unreleasedHidden: true,
+
 			abilities: {
 				0: "Insomnia",
 				1: "Tinted Lens",
@@ -877,7 +877,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		ledyba: {
 			inherit: true,
-			unreleasedHidden: true,
+
 			baseStats: {
 				hp: 40,
 				atk: 20,
@@ -889,7 +889,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		ledian: {
 			inherit: true,
-			unreleasedHidden: true,
+
 			abilities: {
 				0: "Iron Fist",
 				1: "Early Bird",
@@ -906,7 +906,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		spinarak: {
 			inherit: true,
-			unreleasedHidden: true,
+
 			abilities: {
 				0: "Sniper",
 				1: "Insomnia",
@@ -915,7 +915,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		ariados: {
 			inherit: true,
-			unreleasedHidden: true,
+
 			abilities: {
 				0: "Sniper",
 				1: "Insomnia",
@@ -932,7 +932,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		crobat: {
 			inherit: true,
-			unreleasedHidden: true,
+
 			abilities: {
 				0: "Anticipation",
 				H: "Infiltrator",
@@ -940,7 +940,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		chinchou: {
 			inherit: true,
-			unreleasedHidden: true,
+
 			abilities: {
 				0: "Volt Absorb",
 				1: "Water Absorb",
@@ -949,7 +949,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		lanturn: {
 			inherit: true,
-			unreleasedHidden: true,
+
 			abilities: {
 				0: "Volt Absorb",
 				1: "Water Absorb",
@@ -966,7 +966,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		pichu: {
 			inherit: true,
-			unreleasedHidden: true,
+
 			abilities: {
 				0: "Lightningrod",
 				H: "Lightning Rod",
@@ -974,7 +974,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		togepi: {
 			inherit: true,
-			unreleasedHidden: true,
+
 			abilities: {
 				0: "Super Luck",
 				1: "Serene Grace",
@@ -983,7 +983,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		togetic: {
 			inherit: true,
-			unreleasedHidden: true,
+
 			abilities: {
 				0: "Super Luck",
 				1: "Serene Grace",
@@ -992,7 +992,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		xatu: {
 			inherit: true,
-			unreleasedHidden: true,
+
 			baseStats: {
 				hp: 65,
 				atk: 75,
@@ -1004,7 +1004,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		bellossom: {
 			inherit: true,
-			unreleasedHidden: true,
+
 			abilities: {
 				0: "Own Tempo",
 				H: "Healer",
@@ -1020,7 +1020,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		marill: {
 			inherit: true,
-			unreleasedHidden: true,
+
 			baseStats: {
 				hp: 70,
 				atk: 20,
@@ -1032,7 +1032,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		azumarill: {
 			inherit: true,
-			unreleasedHidden: true,
+
 			baseStats: {
 				hp: 110,
 				atk: 50,
@@ -1044,7 +1044,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		sudowoodo: {
 			inherit: true,
-			unreleasedHidden: true,
+
 			baseStats: {
 				hp: 75,
 				atk: 115,
@@ -1056,7 +1056,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		politoed: {
 			inherit: true,
-			unreleasedHidden: true,
+
 			abilities: {
 				0: "Water Absorb",
 				1: "Drizzle",
@@ -1073,7 +1073,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		wooper: {
 			inherit: true,
-			unreleasedHidden: true,
+
 			abilities: {
 				0: "Unaware",
 				1: "Water Absorb",
@@ -1082,7 +1082,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		quagsire: {
 			inherit: true,
-			unreleasedHidden: true,
+
 			abilities: {
 				0: "Unaware",
 				1: "Water Absorb",
@@ -1091,7 +1091,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		espeon: {
 			inherit: true,
-			unreleasedHidden: true,
+
 			abilities: {
 				0: "Magic Guard",
 				H: "Magic Bounce",
@@ -1099,7 +1099,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		umbreon: {
 			inherit: true,
-			unreleasedHidden: true,
+
 			abilities: {
 				0: "Magic Guard",
 				H: "Inner Focus",
@@ -1107,7 +1107,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		girafarig: {
 			inherit: true,
-			unreleasedHidden: true,
+
 			baseStats: {
 				hp: 70,
 				atk: 80,
@@ -1119,7 +1119,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		dunsparce: {
 			inherit: true,
-			unreleasedHidden: true,
+
 			baseStats: {
 				hp: 105,
 				atk: 80,
@@ -1131,7 +1131,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		gligar: {
 			inherit: true,
-			unreleasedHidden: true,
+
 			abilities: {
 				0: "Hyper Cutter",
 				1: "Immunity",
@@ -1140,7 +1140,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		qwilfish: {
 			inherit: true,
-			unreleasedHidden: true,
+
 			abilities: {
 				0: "Poison Point",
 				1: "Intimidate",
@@ -1157,7 +1157,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		shuckle: {
 			inherit: true,
-			unreleasedHidden: true,
+
 			abilities: {
 				0: "Solid Rock",
 				1: "Gluttony",
@@ -1166,7 +1166,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		sneasel: {
 			inherit: true,
-			unreleasedHidden: true,
+
 			abilities: {
 				0: "Inner Focus",
 				1: "Technician",
@@ -1175,7 +1175,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		teddiursa: {
 			inherit: true,
-			unreleasedHidden: true,
+
 			abilities: {
 				0: "Pickup",
 				1: "Honey Gather",
@@ -1184,7 +1184,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		magcargo: {
 			inherit: true,
-			unreleasedHidden: true,
+
 			abilities: {
 				0: "Solid Rock",
 				1: "Flame Body",
@@ -1201,7 +1201,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		swinub: {
 			inherit: true,
-			unreleasedHidden: true,
+
 			abilities: {
 				0: "Thick Fat",
 				1: "Snow Cloak",
@@ -1210,7 +1210,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		piloswine: {
 			inherit: true,
-			unreleasedHidden: true,
+
 			abilities: {
 				0: "Thick Fat",
 				1: "Snow Cloak",
@@ -1219,7 +1219,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		corsola: {
 			inherit: true,
-			unreleasedHidden: true,
+
 			baseStats: {
 				hp: 65,
 				atk: 55,
@@ -1231,7 +1231,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		delibird: {
 			inherit: true,
-			unreleasedHidden: true,
+
 			abilities: {
 				0: "Vital Spirit",
 				1: "Technician",
@@ -1248,7 +1248,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		skarmory: {
 			inherit: true,
-			unreleasedHidden: true,
+
 			abilities: {
 				0: "Keen Eye",
 				1: "Rock Head",
@@ -1257,7 +1257,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		houndoom: {
 			inherit: true,
-			unreleasedHidden: true,
+
 			abilities: {
 				0: "Intimidate",
 				1: "Flash Fire",
@@ -1266,7 +1266,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		stantler: {
 			inherit: true,
-			unreleasedHidden: true,
+
 			baseStats: {
 				hp: 73,
 				atk: 100,
@@ -1278,7 +1278,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		smeargle: {
 			inherit: true,
-			unreleasedHidden: true,
+
 			baseStats: {
 				hp: 55,
 				atk: 20,
@@ -1290,7 +1290,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		smoochum: {
 			inherit: true,
-			unreleasedHidden: true,
+
 			abilities: {
 				0: "Hydration",
 				1: "Filter",
@@ -1299,7 +1299,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		elekid: {
 			inherit: true,
-			unreleasedHidden: true,
+
 			abilities: {
 				0: "Vital Spirit",
 				H: "Vital Spirit",
@@ -1307,7 +1307,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		magby: {
 			inherit: true,
-			unreleasedHidden: true,
+
 			abilities: {
 				0: "Vital Spirit",
 				H: "Vital Spirit",
@@ -1315,7 +1315,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		raikou: {
 			inherit: true,
-			unreleasedHidden: true,
+
 			abilities: {
 				0: "Volt Absorb",
 				H: "Inner Focus",
@@ -1323,7 +1323,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		entei: {
 			inherit: true,
-			unreleasedHidden: true,
+
 			abilities: {
 				0: "Flash Fire",
 				H: "Inner Focus",
@@ -1331,7 +1331,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		suicune: {
 			inherit: true,
-			unreleasedHidden: true,
+
 			abilities: {
 				0: "Water Absorb",
 				H: "Inner Focus",
@@ -1339,7 +1339,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		larvitar: {
 			inherit: true,
-			unreleasedHidden: true,
+
 			abilities: {
 				0: "Battle Armor",
 				H: "Sand Veil",
@@ -1347,14 +1347,14 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		pupitar: {
 			inherit: true,
-			unreleasedHidden: true,
+
 			abilities: {
 				0: "Battle Armor",
 			},
 		},
 		tyranitar: {
 			inherit: true,
-			unreleasedHidden: true,
+
 			abilities: {
 				0: "Battle Armor",
 				H: "Unnerve",
@@ -1362,14 +1362,14 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		celebi: {
 			inherit: true,
-			unreleasedHidden: true,
+
 			abilities: {
 				0: "Magic Guard",
 			},
 		},
 		treecko: {
 			inherit: true,
-			unreleasedHidden: true,
+
 			abilities: {
 				0: "Unburden",
 				H: "Unburden",
@@ -1377,7 +1377,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		grovyle: {
 			inherit: true,
-			unreleasedHidden: true,
+
 			abilities: {
 				0: "Unburden",
 				H: "Unburden",
@@ -1385,7 +1385,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		sceptile: {
 			inherit: true,
-			unreleasedHidden: true,
+
 			abilities: {
 				0: "Unburden",
 				H: "Unburden",
@@ -1393,7 +1393,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		torchic: {
 			inherit: true,
-			unreleasedHidden: true,
+
 			abilities: {
 				0: "Speed Boost",
 				H: "Speed Boost",
@@ -1401,7 +1401,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		combusken: {
 			inherit: true,
-			unreleasedHidden: true,
+
 			abilities: {
 				0: "Speed Boost",
 				H: "Speed Boost",
@@ -1409,7 +1409,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		blaziken: {
 			inherit: true,
-			unreleasedHidden: true,
+
 			abilities: {
 				0: "Speed Boost",
 				H: "Speed Boost",
@@ -1417,7 +1417,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		mudkip: {
 			inherit: true,
-			unreleasedHidden: true,
+
 			abilities: {
 				0: "Damp",
 				H: "Damp",
@@ -1425,7 +1425,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		marshtomp: {
 			inherit: true,
-			unreleasedHidden: true,
+
 			abilities: {
 				0: "Damp",
 				H: "Damp",
@@ -1433,7 +1433,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		swampert: {
 			inherit: true,
-			unreleasedHidden: true,
+
 			abilities: {
 				0: "Damp",
 				H: "Damp",
@@ -1441,7 +1441,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		mightyena: {
 			inherit: true,
-			unreleasedHidden: true,
+
 			baseStats: {
 				hp: 70,
 				atk: 105,
@@ -1453,7 +1453,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		linoone: {
 			inherit: true,
-			unreleasedHidden: true,
+
 			baseStats: {
 				hp: 78,
 				atk: 90,
@@ -1465,7 +1465,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		wurmple: {
 			inherit: true,
-			unreleasedHidden: true,
+
 			abilities: {
 				0: "Run Away",
 				H: "Run Away",
@@ -1473,7 +1473,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		beautifly: {
 			inherit: true,
-			unreleasedHidden: true,
+
 			abilities: {
 				0: "Shield Dust",
 				H: "Rivalry",
@@ -1489,7 +1489,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		dustox: {
 			inherit: true,
-			unreleasedHidden: true,
+
 			abilities: {
 				0: "Compoundeyes",
 				H: "Compound Eyes",
@@ -1505,7 +1505,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		taillow: {
 			inherit: true,
-			unreleasedHidden: true,
+
 			abilities: {
 				0: "Scrappy",
 				H: "Scrappy",
@@ -1513,7 +1513,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		swellow: {
 			inherit: true,
-			unreleasedHidden: true,
+
 			abilities: {
 				0: "Scrappy",
 				H: "Scrappy",
@@ -1529,7 +1529,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		wingull: {
 			inherit: true,
-			unreleasedHidden: true,
+
 			abilities: {
 				0: "Rain Dish",
 				1: "Hydration",
@@ -1538,7 +1538,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		pelipper: {
 			inherit: true,
-			unreleasedHidden: true,
+
 			baseStats: {
 				hp: 60,
 				atk: 50,
@@ -1550,7 +1550,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		ralts: {
 			inherit: true,
-			unreleasedHidden: true,
+
 			baseStats: {
 				hp: 28,
 				atk: 25,
@@ -1562,7 +1562,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		kirlia: {
 			inherit: true,
-			unreleasedHidden: true,
+
 			baseStats: {
 				hp: 38,
 				atk: 35,
@@ -1574,7 +1574,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		surskit: {
 			inherit: true,
-			unreleasedHidden: true,
+
 			abilities: {
 				0: "Rain Dish",
 				H: "Rain Dish",
@@ -1582,7 +1582,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		masquerain: {
 			inherit: true,
-			unreleasedHidden: true,
+
 			abilities: {
 				0: "Levitate",
 				1: "Levitate",
@@ -1591,7 +1591,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		breloom: {
 			inherit: true,
-			unreleasedHidden: true,
+
 			abilities: {
 				0: "Technician",
 				1: "Poison Heal",
@@ -1600,21 +1600,21 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		slakoth: {
 			inherit: true,
-			unreleasedHidden: true,
+
 			abilities: {
 				0: "Slow Start",
 			},
 		},
 		slaking: {
 			inherit: true,
-			unreleasedHidden: true,
+
 			abilities: {
 				0: "Slow Start",
 			},
 		},
 		loudred: {
 			inherit: true,
-			unreleasedHidden: true,
+
 			abilities: {
 				0: "Scrappy",
 				H: "Scrappy",
@@ -1622,7 +1622,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		exploud: {
 			inherit: true,
-			unreleasedHidden: true,
+
 			abilities: {
 				0: "Scrappy",
 				H: "Scrappy",
@@ -1630,7 +1630,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		nosepass: {
 			inherit: true,
-			unreleasedHidden: true,
+
 			baseStats: {
 				hp: 30,
 				atk: 45,
@@ -1642,7 +1642,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		delcatty: {
 			inherit: true,
-			unreleasedHidden: true,
+
 			baseStats: {
 				hp: 70,
 				atk: 65,
@@ -1654,7 +1654,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		sableye: {
 			inherit: true,
-			unreleasedHidden: true,
+
 			abilities: {
 				0: "Steadfast",
 				1: "Stall",
@@ -1671,7 +1671,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		mawile: {
 			inherit: true,
-			unreleasedHidden: true,
+
 			baseStats: {
 				hp: 60,
 				atk: 105,
@@ -1683,7 +1683,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		plusle: {
 			inherit: true,
-			unreleasedHidden: true,
+
 			abilities: {
 				0: "Static",
 				H: "Lightning Rod",
@@ -1699,7 +1699,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		minun: {
 			inherit: true,
-			unreleasedHidden: true,
+
 			abilities: {
 				0: "Static",
 				H: "Volt Absorb",
@@ -1715,7 +1715,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		swalot: {
 			inherit: true,
-			unreleasedHidden: true,
+
 			baseStats: {
 				hp: 100,
 				atk: 83,
@@ -1727,7 +1727,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		carvanha: {
 			inherit: true,
-			unreleasedHidden: true,
+
 			abilities: {
 				0: "Speed Boost",
 				H: "Speed Boost",
@@ -1735,7 +1735,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		sharpedo: {
 			inherit: true,
-			unreleasedHidden: true,
+
 			abilities: {
 				0: "Speed Boost",
 				H: "Speed Boost",
@@ -1743,7 +1743,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		wailmer: {
 			inherit: true,
-			unreleasedHidden: true,
+
 			abilities: {
 				0: "Pressure",
 				1: "Oblivious",
@@ -1752,7 +1752,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		wailord: {
 			inherit: true,
-			unreleasedHidden: true,
+
 			abilities: {
 				0: "Pressure",
 				1: "Oblivious",
@@ -1761,7 +1761,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		numel: {
 			inherit: true,
-			unreleasedHidden: true,
+
 			abilities: {
 				0: "Own Tempo",
 				1: "Simple",
@@ -1770,7 +1770,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		camerupt: {
 			inherit: true,
-			unreleasedHidden: true,
+
 			abilities: {
 				0: "Anger Point",
 				1: "Solid Rock",
@@ -1779,7 +1779,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		torkoal: {
 			inherit: true,
-			unreleasedHidden: true,
+
 			baseStats: {
 				hp: 70,
 				atk: 100,
@@ -1791,7 +1791,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		spinda: {
 			inherit: true,
-			unreleasedHidden: true,
+
 			baseStats: {
 				hp: 60,
 				atk: 60,
@@ -1803,7 +1803,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		flygon: {
 			inherit: true,
-			unreleasedHidden: true,
+
 			baseStats: {
 				hp: 80,
 				atk: 110,
@@ -1815,7 +1815,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		cacnea: {
 			inherit: true,
-			unreleasedHidden: true,
+
 			abilities: {
 				0: "Water Absorb",
 				H: "Water Absorb",
@@ -1823,7 +1823,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		cacturne: {
 			inherit: true,
-			unreleasedHidden: true,
+
 			abilities: {
 				0: "Water Absorb",
 				H: "Water Absorb",
@@ -1831,7 +1831,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		swablu: {
 			inherit: true,
-			unreleasedHidden: true,
+
 			abilities: {
 				0: "Cloud Nine",
 				H: "Cloud Nine",
@@ -1839,7 +1839,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		altaria: {
 			inherit: true,
-			unreleasedHidden: true,
+
 			abilities: {
 				0: "Cloud Nine",
 				H: "Cloud Nine",
@@ -1855,7 +1855,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		lunatone: {
 			inherit: true,
-			unreleasedHidden: true,
+
 			baseStats: {
 				hp: 90,
 				atk: 55,
@@ -1867,7 +1867,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		solrock: {
 			inherit: true,
-			unreleasedHidden: true,
+
 			baseStats: {
 				hp: 90,
 				atk: 115,
@@ -1879,7 +1879,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		corphish: {
 			inherit: true,
-			unreleasedHidden: true,
+
 			abilities: {
 				0: "Adaptability",
 				1: "Shell Armor",
@@ -1888,7 +1888,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		crawdaunt: {
 			inherit: true,
-			unreleasedHidden: true,
+
 			abilities: {
 				0: "Adaptability",
 				1: "Shell Armor",
@@ -1897,7 +1897,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		lileep: {
 			inherit: true,
-			unreleasedHidden: true,
+
 			abilities: {
 				0: "Storm Drain",
 				H: "Storm Drain",
@@ -1905,7 +1905,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		cradily: {
 			inherit: true,
-			unreleasedHidden: true,
+
 			abilities: {
 				0: "Storm Drain",
 				H: "Storm Drain",
@@ -1913,7 +1913,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		anorith: {
 			inherit: true,
-			unreleasedHidden: true,
+
 			abilities: {
 				0: "Swift Swim",
 				H: "Swift Swim",
@@ -1921,7 +1921,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		armaldo: {
 			inherit: true,
-			unreleasedHidden: true,
+
 			abilities: {
 				0: "Swift Swim",
 				H: "Swift Swim",
@@ -1929,7 +1929,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		feebas: {
 			inherit: true,
-			unreleasedHidden: true,
+
 			abilities: {
 				0: "Adaptability",
 				1: "Oblivious",
@@ -1938,7 +1938,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		milotic: {
 			inherit: true,
-			unreleasedHidden: true,
+
 			abilities: {
 				0: "Cute Charm",
 				1: "Competitive",
@@ -1947,7 +1947,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		tropius: {
 			inherit: true,
-			unreleasedHidden: true,
+
 			baseStats: {
 				hp: 110,
 				atk: 90,
@@ -1959,7 +1959,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		chimecho: {
 			inherit: true,
-			unreleasedHidden: true,
+
 			baseStats: {
 				hp: 75,
 				atk: 50,
@@ -1971,7 +1971,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		glalie: {
 			inherit: true,
-			unreleasedHidden: true,
+
 			abilities: {
 				0: "Levitate",
 				1: "Levitate",
@@ -1980,7 +1980,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		luvdisc: {
 			inherit: true,
-			unreleasedHidden: true,
+
 			abilities: {
 				0: "Hydration",
 				H: "Hydration",
@@ -1988,7 +1988,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		beldum: {
 			inherit: true,
-			unreleasedHidden: true,
+
 			abilities: {
 				0: "Rock Head",
 				H: "Light Metal",
@@ -1996,7 +1996,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		metang: {
 			inherit: true,
-			unreleasedHidden: true,
+
 			abilities: {
 				0: "Iron Fist",
 				H: "Light Metal",
@@ -2004,7 +2004,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		metagross: {
 			inherit: true,
-			unreleasedHidden: true,
+
 			abilities: {
 				0: "Iron Fist",
 				H: "Light Metal",
@@ -2012,7 +2012,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		regirock: {
 			inherit: true,
-			unreleasedHidden: true,
+
 			abilities: {
 				0: "Sturdy",
 				H: "Sturdy",
@@ -2020,7 +2020,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		regice: {
 			inherit: true,
-			unreleasedHidden: true,
+
 			abilities: {
 				0: "Ice Body",
 				H: "Ice Body",
@@ -2028,7 +2028,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		registeel: {
 			inherit: true,
-			unreleasedHidden: true,
+
 			abilities: {
 				0: "Sturdy",
 				H: "Light Metal",
@@ -2036,14 +2036,14 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		jirachi: {
 			inherit: true,
-			unreleasedHidden: true,
+
 			abilities: {
 				0: "Magic Guard",
 			},
 		},
 		turtwig: {
 			inherit: true,
-			unreleasedHidden: true,
+
 			abilities: {
 				0: "Shell Armor",
 				H: "Shell Armor",
@@ -2051,7 +2051,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		grotle: {
 			inherit: true,
-			unreleasedHidden: true,
+
 			abilities: {
 				0: "Shell Armor",
 				H: "Shell Armor",
@@ -2059,7 +2059,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		torterra: {
 			inherit: true,
-			unreleasedHidden: true,
+
 			abilities: {
 				0: "Shell Armor",
 				H: "Shell Armor",
@@ -2067,7 +2067,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		chimchar: {
 			inherit: true,
-			unreleasedHidden: true,
+
 			abilities: {
 				0: "Iron Fist",
 				H: "Iron Fist",
@@ -2075,7 +2075,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		monferno: {
 			inherit: true,
-			unreleasedHidden: true,
+
 			abilities: {
 				0: "Iron Fist",
 				H: "Iron Fist",
@@ -2083,7 +2083,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		infernape: {
 			inherit: true,
-			unreleasedHidden: true,
+
 			abilities: {
 				0: "Iron Fist",
 				H: "Iron Fist",
@@ -2091,7 +2091,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		piplup: {
 			inherit: true,
-			unreleasedHidden: true,
+
 			abilities: {
 				0: "Hustle",
 				H: "Competitive",
@@ -2099,7 +2099,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		prinplup: {
 			inherit: true,
-			unreleasedHidden: true,
+
 			abilities: {
 				0: "Hustle",
 				H: "Competitive",
@@ -2107,7 +2107,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		empoleon: {
 			inherit: true,
-			unreleasedHidden: true,
+
 			abilities: {
 				0: "Hustle",
 				H: "Competitive",
@@ -2115,7 +2115,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		staravia: {
 			inherit: true,
-			unreleasedHidden: true,
+
 			abilities: {
 				0: "Reckless",
 				H: "Reckless",
@@ -2123,7 +2123,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		staraptor: {
 			inherit: true,
-			unreleasedHidden: true,
+
 			abilities: {
 				0: "Reckless",
 				H: "Reckless",
@@ -2139,7 +2139,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		kricketot: {
 			inherit: true,
-			unreleasedHidden: true,
+
 			abilities: {
 				0: "Run Away",
 				H: "Run Away",
@@ -2147,7 +2147,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		kricketune: {
 			inherit: true,
-			unreleasedHidden: true,
+
 			abilities: {
 				0: "Technician",
 				H: "Technician",
@@ -2163,7 +2163,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		shinx: {
 			inherit: true,
-			unreleasedHidden: true,
+
 			abilities: {
 				0: "Guts",
 				1: "Intimidate",
@@ -2172,7 +2172,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		luxio: {
 			inherit: true,
-			unreleasedHidden: true,
+
 			abilities: {
 				0: "Guts",
 				1: "Intimidate",
@@ -2181,7 +2181,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		budew: {
 			inherit: true,
-			unreleasedHidden: true,
+
 			abilities: {
 				0: "Leaf Guard",
 				1: "Poison Point",
@@ -2190,7 +2190,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		roserade: {
 			inherit: true,
-			unreleasedHidden: true,
+
 			abilities: {
 				0: "Technician",
 				1: "Poison Point",
@@ -2199,7 +2199,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		cranidos: {
 			inherit: true,
-			unreleasedHidden: true,
+
 			abilities: {
 				0: "Reckless",
 				H: "Sheer Force",
@@ -2207,7 +2207,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		rampardos: {
 			inherit: true,
-			unreleasedHidden: true,
+
 			abilities: {
 				0: "Reckless",
 				H: "Sheer Force",
@@ -2215,7 +2215,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		shieldon: {
 			inherit: true,
-			unreleasedHidden: true,
+
 			abilities: {
 				0: "Soundproof",
 				H: "Soundproof",
@@ -2223,7 +2223,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		bastiodon: {
 			inherit: true,
-			unreleasedHidden: true,
+
 			abilities: {
 				0: "Soundproof",
 				H: "Soundproof",
@@ -2231,7 +2231,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		mothim: {
 			inherit: true,
-			unreleasedHidden: true,
+
 			abilities: {
 				0: "Tinted Lens",
 				H: "Tinted Lens",
@@ -2247,7 +2247,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		combee: {
 			inherit: true,
-			unreleasedHidden: true,
+
 			abilities: {
 				0: "Hustle",
 				H: "Hustle",
@@ -2255,7 +2255,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		vespiquen: {
 			inherit: true,
-			unreleasedHidden: true,
+
 			abilities: {
 				0: "Intimidate",
 				H: "Unnerve",
@@ -2263,7 +2263,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		pachirisu: {
 			inherit: true,
-			unreleasedHidden: true,
+
 			abilities: {
 				0: "Volt Absorb",
 				1: "Pickup",
@@ -2272,7 +2272,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		buizel: {
 			inherit: true,
-			unreleasedHidden: true,
+
 			abilities: {
 				0: "Technician",
 				H: "Water Veil",
@@ -2280,7 +2280,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		floatzel: {
 			inherit: true,
-			unreleasedHidden: true,
+
 			abilities: {
 				0: "Technician",
 				H: "Water Veil",
@@ -2288,7 +2288,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		cherrim: {
 			inherit: true,
-			unreleasedHidden: true,
+
 			baseStats: {
 				hp: 70,
 				atk: 60,
@@ -2300,7 +2300,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		buneary: {
 			inherit: true,
-			unreleasedHidden: true,
+
 			abilities: {
 				0: "Limber",
 				1: "Klutz",
@@ -2309,7 +2309,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		lopunny: {
 			inherit: true,
-			unreleasedHidden: true,
+
 			abilities: {
 				0: "Limber",
 				1: "Klutz",
@@ -2318,7 +2318,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		mismagius: {
 			inherit: true,
-			unreleasedHidden: true,
+
 			baseStats: {
 				hp: 60,
 				atk: 60,
@@ -2330,7 +2330,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		honchkrow: {
 			inherit: true,
-			unreleasedHidden: true,
+
 			baseStats: {
 				hp: 105,
 				atk: 125,
@@ -2342,7 +2342,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		purugly: {
 			inherit: true,
-			unreleasedHidden: true,
+
 			baseStats: {
 				hp: 100,
 				atk: 86,
@@ -2354,7 +2354,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		skuntank: {
 			inherit: true,
-			unreleasedHidden: true,
+
 			baseStats: {
 				hp: 103,
 				atk: 93,
@@ -2366,7 +2366,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		bronzor: {
 			inherit: true,
-			unreleasedHidden: true,
+
 			baseStats: {
 				hp: 57,
 				atk: 34,
@@ -2378,7 +2378,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		chatot: {
 			inherit: true,
-			unreleasedHidden: true,
+
 			abilities: {
 				0: "Soundproof",
 				1: "Tangled Feet",
@@ -2395,7 +2395,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		gible: {
 			inherit: true,
-			unreleasedHidden: true,
+
 			abilities: {
 				0: "Rough Skin",
 				H: "Rough Skin",
@@ -2403,7 +2403,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		gabite: {
 			inherit: true,
-			unreleasedHidden: true,
+
 			abilities: {
 				0: "Rough Skin",
 				H: "Rough Skin",
@@ -2411,7 +2411,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		garchomp: {
 			inherit: true,
-			unreleasedHidden: true,
+
 			abilities: {
 				0: "Rough Skin",
 				H: "Rough Skin",
@@ -2419,7 +2419,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		carnivine: {
 			inherit: true,
-			unreleasedHidden: true,
+
 			baseStats: {
 				hp: 74,
 				atk: 120,
@@ -2431,7 +2431,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		lumineon: {
 			inherit: true,
-			unreleasedHidden: true,
+
 			baseStats: {
 				hp: 69,
 				atk: 69,
@@ -2443,7 +2443,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		snover: {
 			inherit: true,
-			unreleasedHidden: true,
+
 			abilities: {
 				0: "Soundproof",
 				H: "Soundproof",
@@ -2451,7 +2451,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		abomasnow: {
 			inherit: true,
-			unreleasedHidden: true,
+
 			abilities: {
 				0: "Soundproof",
 				H: "Soundproof",
@@ -2467,7 +2467,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		weavile: {
 			inherit: true,
-			unreleasedHidden: true,
+
 			abilities: {
 				0: "Pressure",
 				1: "Technician",
@@ -2476,7 +2476,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		lickilicky: {
 			inherit: true,
-			unreleasedHidden: true,
+
 			abilities: {
 				0: "Own Tempo",
 				1: "Cloud Nine",
@@ -2485,7 +2485,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		rhyperior: {
 			inherit: true,
-			unreleasedHidden: true,
+
 			abilities: {
 				0: "Reckless",
 				1: "Solid Rock",
@@ -2494,7 +2494,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		electivire: {
 			inherit: true,
-			unreleasedHidden: true,
+
 			abilities: {
 				0: "Vital Spirit",
 				H: "Vital Spirit",
@@ -2502,7 +2502,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		magmortar: {
 			inherit: true,
-			unreleasedHidden: true,
+
 			abilities: {
 				0: "Vital Spirit",
 				H: "Vital Spirit",
@@ -2510,7 +2510,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		leafeon: {
 			inherit: true,
-			unreleasedHidden: true,
+
 			abilities: {
 				0: "Natural Cure",
 				H: "Chlorophyll",
@@ -2518,7 +2518,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		glaceon: {
 			inherit: true,
-			unreleasedHidden: true,
+
 			abilities: {
 				0: "Serene Grace",
 				H: "Ice Body",
@@ -2526,7 +2526,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		gliscor: {
 			inherit: true,
-			unreleasedHidden: true,
+
 			abilities: {
 				0: "Hyper Cutter",
 				1: "Poison Heal",
@@ -2535,7 +2535,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		mamoswine: {
 			inherit: true,
-			unreleasedHidden: true,
+
 			abilities: {
 				0: "Thick Fat",
 				1: "Snow Cloak",
@@ -2544,7 +2544,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		probopass: {
 			inherit: true,
-			unreleasedHidden: true,
+
 			baseStats: {
 				hp: 60,
 				atk: 55,
@@ -2556,7 +2556,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		froslass: {
 			inherit: true,
-			unreleasedHidden: true,
+
 			abilities: {
 				0: "Levitate",
 				1: "Levitate",
@@ -2565,7 +2565,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		heatran: {
 			inherit: true,
-			unreleasedHidden: true,
+
 			abilities: {
 				0: "Flame Body",
 				H: "Flame Body",
@@ -2573,7 +2573,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		regigigas: {
 			inherit: true,
-			unreleasedHidden: true,
+
 			abilities: {
 				0: "Pressure",
 			},
