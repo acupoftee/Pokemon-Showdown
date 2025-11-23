@@ -83,7 +83,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 				1: "Tinted Lens",
 			},
 			baseStats: {
-				hp: 1060,
+				hp: 60,
 				atk: 45,
 				def: 50,
 				spa: 100,

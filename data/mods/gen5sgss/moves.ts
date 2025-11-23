@@ -13,7 +13,7 @@ export const Moves: import('../../../sim/dex-moves').ModdedMoveDataTable = {
 	},
 	strength: {
 		inherit: true,
-		basePower: 750,
+		basePower: 75,
 		type: "Rock",
 		secondary: {
 			chance: 10,
