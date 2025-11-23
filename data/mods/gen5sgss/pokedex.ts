@@ -2,42 +2,42 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 	{
 		bulbasaur: {
 			inherit: true,
-			
+
 			abilities: {
 				0: "Chlorophyll",
 			},
 		},
 		ivysaur: {
 			inherit: true,
-			
+
 			abilities: {
 				0: "Chlorophyll",
 			},
 		},
 		venusaur: {
 			inherit: true,
-			
+
 			abilities: {
 				0: "Chlorophyll",
 			},
 		},
 		charmander: {
 			inherit: true,
-			
+
 			abilities: {
 				0: "Solar Power",
 			},
 		},
 		charmeleon: {
 			inherit: true,
-			
+
 			abilities: {
 				0: "Solar Power",
 			},
 		},
 		charizard: {
 			inherit: true,
-			
+
 			abilities: {
 				0: "Solar Power",
 				1: "Solar Power",
@@ -45,7 +45,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		squirtle: {
 			inherit: true,
-			
+
 			abilities: {
 				0: "Rain Dish",
 				1: "Rain Dish",
@@ -53,7 +53,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		wartortle: {
 			inherit: true,
-			
+
 			abilities: {
 				0: "Rain Dish",
 				1: "Rain Dish",
@@ -61,7 +61,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		blastoise: {
 			inherit: true,
-			
+
 			abilities: {
 				0: "Rain Dish",
 				1: "Rain Dish",
@@ -69,7 +69,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		caterpie: {
 			inherit: true,
-			
+
 			abilities: {
 				0: "Run Away",
 				1: "Run Away",
@@ -77,7 +77,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		butterfree: {
 			inherit: true,
-			
+
 			abilities: {
 				0: "Tinted Lens",
 				1: "Tinted Lens",
@@ -93,14 +93,14 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		weedle: {
 			inherit: true,
-			
+
 			abilities: {
 				0: "Run Away",
 			},
 		},
 		beedrill: {
 			inherit: true,
-			
+
 			abilities: {
 				0: "Sniper",
 			},
@@ -115,7 +115,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		pidgeot: {
 			inherit: true,
-			
+
 			baseStats: {
 				hp: 103,
 				atk: 91,
@@ -127,7 +127,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		rattata: {
 			inherit: true,
-			
+
 			abilities: {
 				0: "Hustle",
 				1: "Guts",
@@ -135,7 +135,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		raticate: {
 			inherit: true,
-			
+
 			abilities: {
 				0: "Hustle",
 				1: "Guts",
@@ -151,14 +151,14 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		spearow: {
 			inherit: true,
-			
+
 			abilities: {
 				0: "Sniper",
 			},
 		},
 		fearow: {
 			inherit: true,
-			
+
 			abilities: {
 				0: "Sniper",
 			},
@@ -173,7 +173,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		arbok: {
 			inherit: true,
-			
+
 			baseStats: {
 				hp: 60,
 				atk: 91,
@@ -185,7 +185,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		pikachu: {
 			inherit: true,
-			
+
 			abilities: {
 				0: "Lightningrod",
 			},
@@ -200,7 +200,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		raichu: {
 			inherit: true,
-			
+
 			abilities: {
 				0: "Lightningrod",
 			},
@@ -215,7 +215,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		nidoqueen: {
 			inherit: true,
-			
+
 			baseStats: {
 				hp: 100,
 				atk: 92,
@@ -227,7 +227,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		nidoking: {
 			inherit: true,
-			
+
 			baseStats: {
 				hp: 81,
 				atk: 97,
@@ -239,7 +239,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		clefable: {
 			inherit: true,
-			
+
 			abilities: {
 				0: "Unaware",
 				1: "Magic Guard",
@@ -247,7 +247,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		vulpix: {
 			inherit: true,
-			
+
 			abilities: {
 				0: "Forewarn",
 				1: "Drought",
@@ -255,14 +255,14 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		ninetales: {
 			inherit: true,
-			
+
 			abilities: {
 				0: "Drought",
 			},
 		},
 		jigglypuff: {
 			inherit: true,
-			
+
 			abilities: {
 				0: "Soundproof",
 				1: "Competitive",
@@ -270,7 +270,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		wigglytuff: {
 			inherit: true,
-			
+
 			abilities: {
 				0: "Soundproof",
 				1: "Competitive",
@@ -286,7 +286,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		zubat: {
 			inherit: true,
-			
+
 			abilities: {
 				0: "Anticipation",
 				H: "Infiltrator",
@@ -294,7 +294,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		golbat: {
 			inherit: true,
-			
+
 			abilities: {
 				0: "Anticipation",
 				H: "Infiltrator",
@@ -302,7 +302,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		oddish: {
 			inherit: true,
-			
+
 			abilities: {
 				0: "Run Away",
 				H: "Run Away",
@@ -310,7 +310,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		gloom: {
 			inherit: true,
-			
+
 			abilities: {
 				0: "Stench",
 				H: "Stench",
@@ -318,7 +318,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		vileplume: {
 			inherit: true,
-			
+
 			abilities: {
 				0: "Effect Spore",
 				H: "Effect Spore",
@@ -334,7 +334,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		parasect: {
 			inherit: true,
-			
+
 			baseStats: {
 				hp: 60,
 				atk: 115,
@@ -346,7 +346,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		venomoth: {
 			inherit: true,
-			
+
 			abilities: {
 				0: "Poison Heal",
 				1: "Tinted Lens",
@@ -355,7 +355,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		dugtrio: {
 			inherit: true,
-			
+
 			baseStats: {
 				hp: 35,
 				atk: 100,
@@ -367,7 +367,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		persian: {
 			inherit: true,
-			
+
 			baseStats: {
 				hp: 65,
 				atk: 90,
@@ -379,7 +379,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		poliwrath: {
 			inherit: true,
-			
+
 			baseStats: {
 				hp: 90,
 				atk: 95,
@@ -391,7 +391,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		abra: {
 			inherit: true,
-			
+
 			abilities: {
 				0: "Synchronize",
 				1: "Magic Guard",
@@ -400,7 +400,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		kadabra: {
 			inherit: true,
-			
+
 			abilities: {
 				0: "Synchronize",
 				1: "Magic Guard",
@@ -409,7 +409,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		alakazam: {
 			inherit: true,
-			
+
 			abilities: {
 				0: "Synchronize",
 				1: "Magic Guard",
@@ -418,7 +418,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		bellsprout: {
 			inherit: true,
-			
+
 			abilities: {
 				0: "Gluttony",
 				H: "Gluttony",
@@ -426,7 +426,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		weepinbell: {
 			inherit: true,
-			
+
 			abilities: {
 				0: "Gluttony",
 				H: "Gluttony",
@@ -434,7 +434,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		victreebel: {
 			inherit: true,
-			
+
 			abilities: {
 				0: "Gluttony",
 				H: "Gluttony",
@@ -450,7 +450,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		ponyta: {
 			inherit: true,
-			
+
 			abilities: {
 				0: "Flame Body",
 				1: "Flash Fire",
@@ -459,7 +459,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		rapidash: {
 			inherit: true,
-			
+
 			abilities: {
 				0: "Flame Body",
 				1: "Flash Fire",
@@ -468,7 +468,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		"farfetch’d": {
 			inherit: true,
-			
+
 			abilities: {
 				0: "Super Luck",
 				1: "Inner Focus",
@@ -485,7 +485,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		doduo: {
 			inherit: true,
-			
+
 			abilities: {
 				0: "Tangled Feet",
 				1: "Early Bird",
@@ -494,7 +494,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		dodrio: {
 			inherit: true,
-			
+
 			abilities: {
 				0: "Tangled Feet",
 				1: "Early Bird",
@@ -503,7 +503,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		dewgong: {
 			inherit: true,
-			
+
 			baseStats: {
 				hp: 90,
 				atk: 70,
@@ -515,7 +515,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		onix: {
 			inherit: true,
-			
+
 			baseStats: {
 				hp: 35,
 				atk: 80,
@@ -527,7 +527,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		krabby: {
 			inherit: true,
-			
+
 			abilities: {
 				0: "Hyper Cutter",
 				1: "Shed Skin",
@@ -536,7 +536,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		kingler: {
 			inherit: true,
-			
+
 			abilities: {
 				0: "Hyper Cutter",
 				1: "Shed Skin",
@@ -545,7 +545,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		voltorb: {
 			inherit: true,
-			
+
 			abilities: {
 				0: "Aftermath",
 				1: "Static",
@@ -554,7 +554,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		electrode: {
 			inherit: true,
-			
+
 			abilities: {
 				0: "Aftermath",
 				1: "Static",
@@ -563,7 +563,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		cubone: {
 			inherit: true,
-			
+
 			abilities: {
 				0: "Rock Head",
 				1: "Battle Armor",
@@ -572,7 +572,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		marowak: {
 			inherit: true,
-			
+
 			abilities: {
 				0: "Rock Head",
 				1: "Battle Armor",
@@ -589,7 +589,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		lickitung: {
 			inherit: true,
-			
+
 			abilities: {
 				0: "Own Tempo",
 				1: "Cloud Nine",
@@ -598,7 +598,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		rhyhorn: {
 			inherit: true,
-			
+
 			abilities: {
 				0: "Reckless",
 				1: "Rock Head",
@@ -607,7 +607,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		rhydon: {
 			inherit: true,
-			
+
 			abilities: {
 				0: "Reckless",
 				1: "Rock Head",
@@ -616,7 +616,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		seadra: {
 			inherit: true,
-			
+
 			baseStats: {
 				hp: 65,
 				atk: 75,
@@ -628,7 +628,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		seaking: {
 			inherit: true,
-			
+
 			baseStats: {
 				hp: 80,
 				atk: 102,
@@ -640,7 +640,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		jynx: {
 			inherit: true,
-			
+
 			abilities: {
 				0: "Dry Skin",
 				1: "Filter",
@@ -657,7 +657,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		electabuzz: {
 			inherit: true,
-			
+
 			abilities: {
 				0: "Vital Spirit",
 				H: "Vital Spirit",
@@ -665,7 +665,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		magmar: {
 			inherit: true,
-			
+
 			abilities: {
 				0: "Vital Spirit",
 				H: "Vital Spirit",
@@ -673,7 +673,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		articuno: {
 			inherit: true,
-			
+
 			abilities: {
 				0: "Snow Cloak",
 				H: "Snow Cloak",
@@ -681,7 +681,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		zapdos: {
 			inherit: true,
-			
+
 			abilities: {
 				0: "LightningRod",
 				H: "Static",
@@ -689,7 +689,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		moltres: {
 			inherit: true,
-			
+
 			abilities: {
 				0: "Flame Body",
 				H: "Flame Body",
@@ -697,7 +697,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		dratini: {
 			inherit: true,
-			
+
 			abilities: {
 				0: "Marvel Scale",
 				H: "Marvel Scale",
@@ -705,7 +705,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		dragonair: {
 			inherit: true,
-			
+
 			abilities: {
 				0: "Marvel Scale",
 				H: "Marvel Scale",
@@ -713,7 +713,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		dragonite: {
 			inherit: true,
-			
+
 			abilities: {
 				0: "Marvel Scale",
 				H: "Multiscale",
@@ -721,7 +721,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		mewtwo: {
 			inherit: true,
-			
+
 			abilities: {
 				0: "Magic Guard",
 				H: "Unnerve",
@@ -729,14 +729,14 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		mew: {
 			inherit: true,
-			
+
 			abilities: {
 				0: "Magic Guard",
 			},
 		},
 		chikorita: {
 			inherit: true,
-			
+
 			abilities: {
 				0: "Natural Cure",
 				H: "Leaf Guard",
@@ -744,7 +744,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		bayleef: {
 			inherit: true,
-			
+
 			abilities: {
 				0: "Natural Cure",
 				H: "Leaf Guard",
@@ -752,7 +752,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		meganium: {
 			inherit: true,
-			
+
 			abilities: {
 				0: "Natural Cure",
 				H: "Leaf Guard",
@@ -760,7 +760,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		cyndaquil: {
 			inherit: true,
-			
+
 			abilities: {
 				0: "Flash Fire",
 				H: "Flash Fire",
@@ -768,7 +768,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		quilava: {
 			inherit: true,
-			
+
 			abilities: {
 				0: "Flash Fire",
 				H: "Flash Fire",
@@ -776,7 +776,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		typhlosion: {
 			inherit: true,
-			
+
 			abilities: {
 				0: "Flash Fire",
 				H: "Flash Fire",
@@ -784,7 +784,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		totodile: {
 			inherit: true,
-			
+
 			abilities: {
 				0: "Guts",
 				H: "Sheer Force",
@@ -792,7 +792,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		croconaw: {
 			inherit: true,
-			
+
 			abilities: {
 				0: "Guts",
 				H: "Sheer Force",
@@ -800,7 +800,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		feraligatr: {
 			inherit: true,
-			
+
 			abilities: {
 				0: "Intimidate",
 				H: "Sheer Force",
@@ -808,7 +808,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		sentret: {
 			inherit: true,
-			
+
 			abilities: {
 				0: "Pickup",
 				1: "Keen Eye",
@@ -817,7 +817,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		furret: {
 			inherit: true,
-			
+
 			abilities: {
 				0: "Scrappy",
 				1: "Keen Eye",
@@ -834,7 +834,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		hoothoot: {
 			inherit: true,
-			
+
 			abilities: {
 				0: "Insomnia",
 				1: "Tinted Lens",
@@ -843,7 +843,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		noctowl: {
 			inherit: true,
-			
+
 			abilities: {
 				0: "Insomnia",
 				1: "Tinted Lens",
@@ -860,7 +860,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		ledyba: {
 			inherit: true,
-			
+
 			baseStats: {
 				hp: 40,
 				atk: 20,
@@ -872,7 +872,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		ledian: {
 			inherit: true,
-			
+
 			abilities: {
 				0: "Iron Fist",
 				1: "Early Bird",
@@ -889,7 +889,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		spinarak: {
 			inherit: true,
-			
+
 			abilities: {
 				0: "Sniper",
 				1: "Insomnia",
@@ -898,7 +898,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		ariados: {
 			inherit: true,
-			
+
 			abilities: {
 				0: "Sniper",
 				1: "Insomnia",
@@ -915,7 +915,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		crobat: {
 			inherit: true,
-			
+
 			abilities: {
 				0: "Anticipation",
 				H: "Infiltrator",
@@ -923,7 +923,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		chinchou: {
 			inherit: true,
-			
+
 			abilities: {
 				0: "Volt Absorb",
 				1: "Water Absorb",
@@ -932,7 +932,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		lanturn: {
 			inherit: true,
-			
+
 			abilities: {
 				0: "Volt Absorb",
 				1: "Water Absorb",
@@ -949,7 +949,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		pichu: {
 			inherit: true,
-			
+
 			abilities: {
 				0: "Lightningrod",
 				H: "Lightning Rod",
@@ -957,7 +957,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		togepi: {
 			inherit: true,
-			
+
 			abilities: {
 				0: "Super Luck",
 				1: "Serene Grace",
@@ -966,7 +966,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		togetic: {
 			inherit: true,
-			
+
 			abilities: {
 				0: "Super Luck",
 				1: "Serene Grace",
@@ -975,7 +975,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		xatu: {
 			inherit: true,
-			
+
 			baseStats: {
 				hp: 65,
 				atk: 75,
@@ -987,7 +987,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		bellossom: {
 			inherit: true,
-			
+
 			abilities: {
 				0: "Own Tempo",
 				H: "Healer",
@@ -1003,7 +1003,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		marill: {
 			inherit: true,
-			
+
 			baseStats: {
 				hp: 70,
 				atk: 20,
@@ -1015,7 +1015,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		azumarill: {
 			inherit: true,
-			
+
 			baseStats: {
 				hp: 110,
 				atk: 50,
@@ -1027,7 +1027,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		sudowoodo: {
 			inherit: true,
-			
+
 			baseStats: {
 				hp: 75,
 				atk: 115,
@@ -1039,7 +1039,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		politoed: {
 			inherit: true,
-			
+
 			abilities: {
 				0: "Water Absorb",
 				1: "Drizzle",
@@ -1056,7 +1056,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		wooper: {
 			inherit: true,
-			
+
 			abilities: {
 				0: "Unaware",
 				1: "Water Absorb",
@@ -1065,7 +1065,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		quagsire: {
 			inherit: true,
-			
+
 			abilities: {
 				0: "Unaware",
 				1: "Water Absorb",
@@ -1074,7 +1074,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		espeon: {
 			inherit: true,
-			
+
 			abilities: {
 				0: "Magic Guard",
 				H: "Magic Bounce",
@@ -1082,7 +1082,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		umbreon: {
 			inherit: true,
-			
+
 			abilities: {
 				0: "Magic Guard",
 				H: "Inner Focus",
@@ -1090,7 +1090,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		girafarig: {
 			inherit: true,
-			
+
 			baseStats: {
 				hp: 70,
 				atk: 80,
@@ -1102,7 +1102,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		dunsparce: {
 			inherit: true,
-			
+
 			baseStats: {
 				hp: 105,
 				atk: 80,
@@ -1114,7 +1114,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		gligar: {
 			inherit: true,
-			
+
 			abilities: {
 				0: "Hyper Cutter",
 				1: "Immunity",
@@ -1123,7 +1123,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		qwilfish: {
 			inherit: true,
-			
+
 			abilities: {
 				0: "Poison Point",
 				1: "Intimidate",
@@ -1140,7 +1140,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		shuckle: {
 			inherit: true,
-			
+
 			abilities: {
 				0: "Solid Rock",
 				1: "Gluttony",
@@ -1149,7 +1149,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		sneasel: {
 			inherit: true,
-			
+
 			abilities: {
 				0: "Inner Focus",
 				1: "Technician",
@@ -1158,7 +1158,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		teddiursa: {
 			inherit: true,
-			
+
 			abilities: {
 				0: "Pickup",
 				1: "Honey Gather",
@@ -1167,7 +1167,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		magcargo: {
 			inherit: true,
-			
+
 			abilities: {
 				0: "Solid Rock",
 				1: "Flame Body",
@@ -1184,7 +1184,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		swinub: {
 			inherit: true,
-			
+
 			abilities: {
 				0: "Thick Fat",
 				1: "Snow Cloak",
@@ -1193,7 +1193,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		piloswine: {
 			inherit: true,
-			
+
 			abilities: {
 				0: "Thick Fat",
 				1: "Snow Cloak",
@@ -1202,7 +1202,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		corsola: {
 			inherit: true,
-			
+
 			baseStats: {
 				hp: 65,
 				atk: 55,
@@ -1214,7 +1214,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		delibird: {
 			inherit: true,
-			
+
 			abilities: {
 				0: "Vital Spirit",
 				1: "Technician",
@@ -1231,7 +1231,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		skarmory: {
 			inherit: true,
-			
+
 			abilities: {
 				0: "Keen Eye",
 				1: "Rock Head",
@@ -1240,7 +1240,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		houndoom: {
 			inherit: true,
-			
+
 			abilities: {
 				0: "Intimidate",
 				1: "Flash Fire",
@@ -1249,7 +1249,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		stantler: {
 			inherit: true,
-			
+
 			baseStats: {
 				hp: 73,
 				atk: 100,
@@ -1261,7 +1261,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		smeargle: {
 			inherit: true,
-			
+
 			baseStats: {
 				hp: 55,
 				atk: 20,
@@ -1273,7 +1273,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		smoochum: {
 			inherit: true,
-			
+
 			abilities: {
 				0: "Hydration",
 				1: "Filter",
@@ -1282,7 +1282,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		elekid: {
 			inherit: true,
-			
+
 			abilities: {
 				0: "Vital Spirit",
 				H: "Vital Spirit",
@@ -1290,7 +1290,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		magby: {
 			inherit: true,
-			
+
 			abilities: {
 				0: "Vital Spirit",
 				H: "Vital Spirit",
@@ -1298,7 +1298,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		raikou: {
 			inherit: true,
-			
+
 			abilities: {
 				0: "Volt Absorb",
 				H: "Inner Focus",
@@ -1306,7 +1306,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		entei: {
 			inherit: true,
-			
+
 			abilities: {
 				0: "Flash Fire",
 				H: "Inner Focus",
@@ -1314,7 +1314,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		suicune: {
 			inherit: true,
-			
+
 			abilities: {
 				0: "Water Absorb",
 				H: "Inner Focus",
@@ -1322,7 +1322,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		larvitar: {
 			inherit: true,
-			
+
 			abilities: {
 				0: "Battle Armor",
 				H: "Sand Veil",
@@ -1330,14 +1330,14 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		pupitar: {
 			inherit: true,
-			
+
 			abilities: {
 				0: "Battle Armor",
 			},
 		},
 		tyranitar: {
 			inherit: true,
-			
+
 			abilities: {
 				0: "Battle Armor",
 				H: "Unnerve",
@@ -1345,14 +1345,14 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		celebi: {
 			inherit: true,
-			
+
 			abilities: {
 				0: "Magic Guard",
 			},
 		},
 		treecko: {
 			inherit: true,
-			
+
 			abilities: {
 				0: "Unburden",
 				H: "Unburden",
@@ -1360,7 +1360,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		grovyle: {
 			inherit: true,
-			
+
 			abilities: {
 				0: "Unburden",
 				H: "Unburden",
@@ -1368,7 +1368,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		sceptile: {
 			inherit: true,
-			
+
 			abilities: {
 				0: "Unburden",
 				H: "Unburden",
@@ -1376,7 +1376,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		torchic: {
 			inherit: true,
-			
+
 			abilities: {
 				0: "Speed Boost",
 				H: "Speed Boost",
@@ -1384,7 +1384,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		combusken: {
 			inherit: true,
-			
+
 			abilities: {
 				0: "Speed Boost",
 				H: "Speed Boost",
@@ -1392,7 +1392,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		blaziken: {
 			inherit: true,
-			
+
 			abilities: {
 				0: "Speed Boost",
 				H: "Speed Boost",
@@ -1400,7 +1400,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		mudkip: {
 			inherit: true,
-			
+
 			abilities: {
 				0: "Damp",
 				H: "Damp",
@@ -1408,7 +1408,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		marshtomp: {
 			inherit: true,
-			
+
 			abilities: {
 				0: "Damp",
 				H: "Damp",
@@ -1416,7 +1416,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		swampert: {
 			inherit: true,
-			
+
 			abilities: {
 				0: "Damp",
 				H: "Damp",
@@ -1424,7 +1424,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		mightyena: {
 			inherit: true,
-			
+
 			baseStats: {
 				hp: 70,
 				atk: 105,
@@ -1436,7 +1436,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		linoone: {
 			inherit: true,
-			
+
 			baseStats: {
 				hp: 78,
 				atk: 90,
@@ -1448,7 +1448,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		wurmple: {
 			inherit: true,
-			
+
 			abilities: {
 				0: "Run Away",
 				H: "Run Away",
@@ -1456,7 +1456,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		beautifly: {
 			inherit: true,
-			
+
 			abilities: {
 				0: "Shield Dust",
 				H: "Rivalry",
@@ -1472,7 +1472,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		dustox: {
 			inherit: true,
-			
+
 			abilities: {
 				0: "Compoundeyes",
 				H: "Compound Eyes",
@@ -1488,7 +1488,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		taillow: {
 			inherit: true,
-			
+
 			abilities: {
 				0: "Scrappy",
 				H: "Scrappy",
@@ -1496,7 +1496,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		swellow: {
 			inherit: true,
-			
+
 			abilities: {
 				0: "Scrappy",
 				H: "Scrappy",
@@ -1512,7 +1512,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		wingull: {
 			inherit: true,
-			
+
 			abilities: {
 				0: "Rain Dish",
 				1: "Hydration",
@@ -1521,7 +1521,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		pelipper: {
 			inherit: true,
-			
+
 			baseStats: {
 				hp: 60,
 				atk: 50,
@@ -1533,7 +1533,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		ralts: {
 			inherit: true,
-			
+
 			baseStats: {
 				hp: 28,
 				atk: 25,
@@ -1545,7 +1545,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		kirlia: {
 			inherit: true,
-			
+
 			baseStats: {
 				hp: 38,
 				atk: 35,
@@ -1557,7 +1557,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		surskit: {
 			inherit: true,
-			
+
 			abilities: {
 				0: "Rain Dish",
 				H: "Rain Dish",
@@ -1565,7 +1565,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		masquerain: {
 			inherit: true,
-			
+
 			abilities: {
 				0: "Levitate",
 				1: "Levitate",
@@ -1574,7 +1574,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		breloom: {
 			inherit: true,
-			
+
 			abilities: {
 				0: "Technician",
 				1: "Poison Heal",
@@ -1583,21 +1583,21 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		slakoth: {
 			inherit: true,
-			
+
 			abilities: {
 				0: "Slow Start",
 			},
 		},
 		slaking: {
 			inherit: true,
-			
+
 			abilities: {
 				0: "Slow Start",
 			},
 		},
 		loudred: {
 			inherit: true,
-			
+
 			abilities: {
 				0: "Scrappy",
 				H: "Scrappy",
@@ -1605,7 +1605,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		exploud: {
 			inherit: true,
-			
+
 			abilities: {
 				0: "Scrappy",
 				H: "Scrappy",
@@ -1613,7 +1613,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		nosepass: {
 			inherit: true,
-			
+
 			baseStats: {
 				hp: 30,
 				atk: 45,
@@ -1625,7 +1625,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		delcatty: {
 			inherit: true,
-			
+
 			baseStats: {
 				hp: 70,
 				atk: 65,
@@ -1637,7 +1637,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		sableye: {
 			inherit: true,
-			
+
 			abilities: {
 				0: "Steadfast",
 				1: "Stall",
@@ -1654,7 +1654,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		mawile: {
 			inherit: true,
-			
+
 			baseStats: {
 				hp: 60,
 				atk: 105,
@@ -1666,7 +1666,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		plusle: {
 			inherit: true,
-			
+
 			abilities: {
 				0: "Static",
 				H: "Lightning Rod",
@@ -1682,7 +1682,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		minun: {
 			inherit: true,
-			
+
 			abilities: {
 				0: "Static",
 				H: "Volt Absorb",
@@ -1698,7 +1698,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		swalot: {
 			inherit: true,
-			
+
 			baseStats: {
 				hp: 100,
 				atk: 83,
@@ -1710,7 +1710,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		carvanha: {
 			inherit: true,
-			
+
 			abilities: {
 				0: "Speed Boost",
 				H: "Speed Boost",
@@ -1718,7 +1718,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		sharpedo: {
 			inherit: true,
-			
+
 			abilities: {
 				0: "Speed Boost",
 				H: "Speed Boost",
@@ -1726,7 +1726,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		wailmer: {
 			inherit: true,
-			
+
 			abilities: {
 				0: "Pressure",
 				1: "Oblivious",
@@ -1735,7 +1735,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		wailord: {
 			inherit: true,
-			
+
 			abilities: {
 				0: "Pressure",
 				1: "Oblivious",
@@ -1744,7 +1744,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		numel: {
 			inherit: true,
-			
+
 			abilities: {
 				0: "Own Tempo",
 				1: "Simple",
@@ -1753,7 +1753,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		camerupt: {
 			inherit: true,
-			
+
 			abilities: {
 				0: "Anger Point",
 				1: "Solid Rock",
@@ -1762,7 +1762,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		torkoal: {
 			inherit: true,
-			
+
 			baseStats: {
 				hp: 70,
 				atk: 100,
@@ -1774,7 +1774,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		spinda: {
 			inherit: true,
-			
+
 			baseStats: {
 				hp: 60,
 				atk: 60,
@@ -1786,7 +1786,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		flygon: {
 			inherit: true,
-			
+
 			baseStats: {
 				hp: 80,
 				atk: 110,
@@ -1798,7 +1798,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		cacnea: {
 			inherit: true,
-			
+
 			abilities: {
 				0: "Water Absorb",
 				H: "Water Absorb",
@@ -1806,7 +1806,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		cacturne: {
 			inherit: true,
-			
+
 			abilities: {
 				0: "Water Absorb",
 				H: "Water Absorb",
@@ -1814,7 +1814,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		swablu: {
 			inherit: true,
-			
+
 			abilities: {
 				0: "Cloud Nine",
 				H: "Cloud Nine",
@@ -1822,7 +1822,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		altaria: {
 			inherit: true,
-			
+
 			abilities: {
 				0: "Cloud Nine",
 				H: "Cloud Nine",
@@ -1838,7 +1838,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		lunatone: {
 			inherit: true,
-			
+
 			baseStats: {
 				hp: 90,
 				atk: 55,
@@ -1850,7 +1850,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		solrock: {
 			inherit: true,
-			
+
 			baseStats: {
 				hp: 90,
 				atk: 115,
@@ -1862,7 +1862,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		corphish: {
 			inherit: true,
-			
+
 			abilities: {
 				0: "Adaptability",
 				1: "Shell Armor",
@@ -1871,7 +1871,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		crawdaunt: {
 			inherit: true,
-			
+
 			abilities: {
 				0: "Adaptability",
 				1: "Shell Armor",
@@ -1880,7 +1880,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		lileep: {
 			inherit: true,
-			
+
 			abilities: {
 				0: "Storm Drain",
 				H: "Storm Drain",
@@ -1888,7 +1888,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		cradily: {
 			inherit: true,
-			
+
 			abilities: {
 				0: "Storm Drain",
 				H: "Storm Drain",
@@ -1896,7 +1896,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		anorith: {
 			inherit: true,
-			
+
 			abilities: {
 				0: "Swift Swim",
 				H: "Swift Swim",
@@ -1904,7 +1904,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		armaldo: {
 			inherit: true,
-			
+
 			abilities: {
 				0: "Swift Swim",
 				H: "Swift Swim",
@@ -1912,7 +1912,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		feebas: {
 			inherit: true,
-			
+
 			abilities: {
 				0: "Adaptability",
 				1: "Oblivious",
@@ -1921,7 +1921,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		milotic: {
 			inherit: true,
-			
+
 			abilities: {
 				0: "Cute Charm",
 				1: "Competitive",
@@ -1930,7 +1930,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		tropius: {
 			inherit: true,
-			
+
 			baseStats: {
 				hp: 110,
 				atk: 90,
@@ -1942,7 +1942,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		chimecho: {
 			inherit: true,
-			
+
 			baseStats: {
 				hp: 75,
 				atk: 50,
@@ -1954,7 +1954,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		glalie: {
 			inherit: true,
-			
+
 			abilities: {
 				0: "Levitate",
 				1: "Levitate",
@@ -1963,7 +1963,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		luvdisc: {
 			inherit: true,
-			
+
 			abilities: {
 				0: "Hydration",
 				H: "Hydration",
@@ -1971,7 +1971,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		beldum: {
 			inherit: true,
-			
+
 			abilities: {
 				0: "Rock Head",
 				H: "Light Metal",
@@ -1979,7 +1979,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		metang: {
 			inherit: true,
-			
+
 			abilities: {
 				0: "Iron Fist",
 				H: "Light Metal",
@@ -1987,7 +1987,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		metagross: {
 			inherit: true,
-			
+
 			abilities: {
 				0: "Iron Fist",
 				H: "Light Metal",
@@ -1995,7 +1995,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		regirock: {
 			inherit: true,
-			
+
 			abilities: {
 				0: "Sturdy",
 				H: "Sturdy",
@@ -2003,7 +2003,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		regice: {
 			inherit: true,
-			
+
 			abilities: {
 				0: "Ice Body",
 				H: "Ice Body",
@@ -2011,7 +2011,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		registeel: {
 			inherit: true,
-			
+
 			abilities: {
 				0: "Sturdy",
 				H: "Light Metal",
@@ -2019,14 +2019,14 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		jirachi: {
 			inherit: true,
-			
+
 			abilities: {
 				0: "Magic Guard",
 			},
 		},
 		turtwig: {
 			inherit: true,
-			
+
 			abilities: {
 				0: "Shell Armor",
 				H: "Shell Armor",
@@ -2034,7 +2034,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		grotle: {
 			inherit: true,
-			
+
 			abilities: {
 				0: "Shell Armor",
 				H: "Shell Armor",
@@ -2042,7 +2042,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		torterra: {
 			inherit: true,
-			
+
 			abilities: {
 				0: "Shell Armor",
 				H: "Shell Armor",
@@ -2050,7 +2050,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		chimchar: {
 			inherit: true,
-			
+
 			abilities: {
 				0: "Iron Fist",
 				H: "Iron Fist",
@@ -2058,7 +2058,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		monferno: {
 			inherit: true,
-			
+
 			abilities: {
 				0: "Iron Fist",
 				H: "Iron Fist",
@@ -2066,7 +2066,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		infernape: {
 			inherit: true,
-			
+
 			abilities: {
 				0: "Iron Fist",
 				H: "Iron Fist",
@@ -2074,7 +2074,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		piplup: {
 			inherit: true,
-			
+
 			abilities: {
 				0: "Hustle",
 				H: "Competitive",
@@ -2082,7 +2082,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		prinplup: {
 			inherit: true,
-			
+
 			abilities: {
 				0: "Hustle",
 				H: "Competitive",
@@ -2090,7 +2090,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		empoleon: {
 			inherit: true,
-			
+
 			abilities: {
 				0: "Hustle",
 				H: "Competitive",
@@ -2098,7 +2098,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		staravia: {
 			inherit: true,
-			
+
 			abilities: {
 				0: "Reckless",
 				H: "Reckless",
@@ -2106,7 +2106,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		staraptor: {
 			inherit: true,
-			
+
 			abilities: {
 				0: "Reckless",
 				H: "Reckless",
@@ -2122,7 +2122,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		kricketot: {
 			inherit: true,
-			
+
 			abilities: {
 				0: "Run Away",
 				H: "Run Away",
@@ -2130,7 +2130,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		kricketune: {
 			inherit: true,
-			
+
 			abilities: {
 				0: "Technician",
 				H: "Technician",
@@ -2146,7 +2146,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		shinx: {
 			inherit: true,
-			
+
 			abilities: {
 				0: "Guts",
 				1: "Intimidate",
@@ -2155,7 +2155,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		luxio: {
 			inherit: true,
-			
+
 			abilities: {
 				0: "Guts",
 				1: "Intimidate",
@@ -2164,7 +2164,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		budew: {
 			inherit: true,
-			
+
 			abilities: {
 				0: "Leaf Guard",
 				1: "Poison Point",
@@ -2173,7 +2173,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		roserade: {
 			inherit: true,
-			
+
 			abilities: {
 				0: "Technician",
 				1: "Poison Point",
@@ -2182,7 +2182,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		cranidos: {
 			inherit: true,
-			
+
 			abilities: {
 				0: "Reckless",
 				H: "Sheer Force",
@@ -2190,7 +2190,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		rampardos: {
 			inherit: true,
-			
+
 			abilities: {
 				0: "Reckless",
 				H: "Sheer Force",
@@ -2198,7 +2198,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		shieldon: {
 			inherit: true,
-			
+
 			abilities: {
 				0: "Soundproof",
 				H: "Soundproof",
@@ -2206,7 +2206,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		bastiodon: {
 			inherit: true,
-			
+
 			abilities: {
 				0: "Soundproof",
 				H: "Soundproof",
@@ -2214,7 +2214,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		mothim: {
 			inherit: true,
-			
+
 			abilities: {
 				0: "Tinted Lens",
 				H: "Tinted Lens",
@@ -2230,7 +2230,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		combee: {
 			inherit: true,
-			
+
 			abilities: {
 				0: "Hustle",
 				H: "Hustle",
@@ -2238,7 +2238,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		vespiquen: {
 			inherit: true,
-			
+
 			abilities: {
 				0: "Intimidate",
 				H: "Unnerve",
@@ -2246,7 +2246,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		pachirisu: {
 			inherit: true,
-			
+
 			abilities: {
 				0: "Volt Absorb",
 				1: "Pickup",
@@ -2255,7 +2255,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		buizel: {
 			inherit: true,
-			
+
 			abilities: {
 				0: "Technician",
 				H: "Water Veil",
@@ -2263,7 +2263,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		floatzel: {
 			inherit: true,
-			
+
 			abilities: {
 				0: "Technician",
 				H: "Water Veil",
@@ -2271,7 +2271,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		cherrim: {
 			inherit: true,
-			
+
 			baseStats: {
 				hp: 70,
 				atk: 60,
@@ -2283,7 +2283,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		buneary: {
 			inherit: true,
-			
+
 			abilities: {
 				0: "Limber",
 				1: "Klutz",
@@ -2292,7 +2292,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		lopunny: {
 			inherit: true,
-			
+
 			abilities: {
 				0: "Limber",
 				1: "Klutz",
@@ -2301,7 +2301,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		mismagius: {
 			inherit: true,
-			
+
 			baseStats: {
 				hp: 60,
 				atk: 60,
@@ -2313,7 +2313,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		honchkrow: {
 			inherit: true,
-			
+
 			baseStats: {
 				hp: 105,
 				atk: 125,
@@ -2325,7 +2325,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		purugly: {
 			inherit: true,
-			
+
 			baseStats: {
 				hp: 100,
 				atk: 86,
@@ -2337,7 +2337,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		skuntank: {
 			inherit: true,
-			
+
 			baseStats: {
 				hp: 103,
 				atk: 93,
@@ -2349,7 +2349,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		bronzor: {
 			inherit: true,
-			
+
 			baseStats: {
 				hp: 57,
 				atk: 34,
@@ -2361,7 +2361,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		chatot: {
 			inherit: true,
-			
+
 			abilities: {
 				0: "Soundproof",
 				1: "Tangled Feet",
@@ -2378,7 +2378,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		gible: {
 			inherit: true,
-			
+
 			abilities: {
 				0: "Rough Skin",
 				1: "Rough Skin",
@@ -2386,7 +2386,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		gabite: {
 			inherit: true,
-			
+
 			abilities: {
 				0: "Rough Skin",
 				1: "Rough Skin",
@@ -2394,7 +2394,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		garchomp: {
 			inherit: true,
-			
+
 			abilities: {
 				0: "Rough Skin",
 				1: "Rough Skin",
@@ -2402,7 +2402,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		carnivine: {
 			inherit: true,
-			
+
 			baseStats: {
 				hp: 74,
 				atk: 120,
@@ -2414,7 +2414,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		lumineon: {
 			inherit: true,
-			
+
 			baseStats: {
 				hp: 69,
 				atk: 69,
@@ -2426,7 +2426,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		snover: {
 			inherit: true,
-			
+
 			abilities: {
 				0: "Soundproof",
 				1: "Soundproof",
@@ -2434,7 +2434,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		abomasnow: {
 			inherit: true,
-			
+
 			abilities: {
 				0: "Soundproof",
 				1: "Soundproof",
@@ -2450,7 +2450,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		weavile: {
 			inherit: true,
-			
+
 			abilities: {
 				0: "Pressure",
 				1: "Technician",
@@ -2459,7 +2459,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		lickilicky: {
 			inherit: true,
-			
+
 			abilities: {
 				0: "Own Tempo",
 				1: "Cloud Nine",
@@ -2467,7 +2467,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		rhyperior: {
 			inherit: true,
-			
+
 			abilities: {
 				0: "Reckless",
 				1: "Solid Rock",
@@ -2475,21 +2475,21 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		electivire: {
 			inherit: true,
-			
+
 			abilities: {
 				0: "Vital Spirit",
 			},
 		},
 		magmortar: {
 			inherit: true,
-			
+
 			abilities: {
 				0: "Vital Spirit",
 			},
 		},
 		leafeon: {
 			inherit: true,
-			
+
 			abilities: {
 				0: "Natural Cure",
 				1: "Chlorophyll",
@@ -2497,7 +2497,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		glaceon: {
 			inherit: true,
-			
+
 			abilities: {
 				0: "Serene Grace",
 				H: "Ice Body",
@@ -2505,7 +2505,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		gliscor: {
 			inherit: true,
-			
+
 			abilities: {
 				0: "Hyper Cutter",
 				1: "Poison Heal",
@@ -2513,7 +2513,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		mamoswine: {
 			inherit: true,
-			
+
 			abilities: {
 				0: "Thick Fat",
 				1: "Snow Cloak",
@@ -2521,7 +2521,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		probopass: {
 			inherit: true,
-			
+
 			baseStats: {
 				hp: 60,
 				atk: 55,
@@ -2533,7 +2533,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		froslass: {
 			inherit: true,
-			
+
 			abilities: {
 				0: "Levitate",
 				1: "Cursed Body",
@@ -2541,14 +2541,14 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 		},
 		heatran: {
 			inherit: true,
-			
+
 			abilities: {
 				0: "Flame Body",
 			},
 		},
 		regigigas: {
 			inherit: true,
-			
+
 			abilities: {
 				0: "Pressure",
 			},
