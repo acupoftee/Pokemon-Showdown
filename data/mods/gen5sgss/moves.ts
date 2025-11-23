@@ -2,7 +2,7 @@ export const Moves: import('../../../sim/dex-moves').ModdedMoveDataTable = {
 	rocksmash: {
 		inherit: true,
 		basePower: 60,
-		type: "Fighting",		
+		type: "Fighting",
 		secondary: {
 			chance: 30,
 			boosts: {
@@ -14,7 +14,7 @@ export const Moves: import('../../../sim/dex-moves').ModdedMoveDataTable = {
 	strength: {
 		inherit: true,
 		basePower: 750,
-		type: "Rock",	
+		type: "Rock",
 		secondary: {
 			chance: 10,
 			boosts: {
