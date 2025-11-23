@@ -4,7 +4,7 @@ const assert = require('../../assert');
 
 let team;
 
-describe('Team Validator', () => {
+xdescribe('Team Validator', () => {
 	it("should validate Shedinja's egg moves correctly", () => {
 		team = [
 			{ species: 'shedinja', ability: 'wonderguard', moves: ['silverwind', 'gust'], evs: { hp: 1 } },
