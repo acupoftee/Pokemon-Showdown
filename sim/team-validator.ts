@@ -2493,7 +2493,6 @@ export class TeamValidator {
 		 * The format doesn't allow Pokemon traded from the future
 		 * (This is everything except in Gen 1 Tradeback)
 		 */
-		const noFutureGen = !ruleTable.has('allowtradeback');
 		/**
 		 * The format allows Sketch to copy moves in Gen 8
 		 */
