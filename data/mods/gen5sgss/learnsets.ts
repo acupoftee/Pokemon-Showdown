@@ -2481,6 +2481,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
 			hyperbeam: ["4M", "3M"],
 			irontail: ["4M", "3M"],
 			mimic: ["3T"],
+			morningsun: ["4E"],
 			nastyplot: ["4L1"],
 			naturalgift: ["4M"],
 			ominouswind: ["4T"],

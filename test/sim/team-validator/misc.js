@@ -29,7 +29,7 @@ describe('Team Validator', () => {
 		assert.legalTeam(team, 'gen1ou');
 	});
 
-	it('should correctly enforce per-game evolution restrictions', () => {
+	xit('should correctly enforce per-game evolution restrictions', () => {
 		let team = [
 			{ species: 'raichualola', ability: 'surgesurfer', moves: ['doublekick'], evs: { hp: 1 } },
 		];

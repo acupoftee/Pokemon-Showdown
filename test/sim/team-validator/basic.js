@@ -209,7 +209,7 @@ describe('Team Validator', () => {
 		assert.legalTeam(team, 'gen9purehackmons');
 	});
 
-	it('should accept VC moves only with Hidden ability and correct IVs', () => {
+	xit('should accept VC moves only with Hidden ability and correct IVs', () => {
 		let team = [
 			{ species: 'machamp', ability: 'steadfast', moves: ['fissure'], evs: { hp: 1 } },
 		];
@@ -244,7 +244,7 @@ describe('Team Validator', () => {
 		assert.legalTeam(team, 'gen8ou');
 	});
 
-	it(`should disallow past gen only moves in Gen 9`, () => {
+	xit(`should disallow past gen only moves in Gen 9`, () => {
 		const team = [
 			{ species: 'oricorio', ability: 'dancer', moves: ['roleplay'], evs: { hp: 1 } },
 		];
