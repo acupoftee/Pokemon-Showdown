@@ -204,12 +204,10 @@ Y929lRybWEiKUr+4Yw2O1W0CAwEAAQ==
  */
 exports.routes = {
 	root: 'pokemonshowdown.com',
-	client: 'pokemon-showdown-client-production.up.railway.app',
+	client: 'pokemon-showdown-client.up.railway.app',
 	dex: 'dex.pokemonshowdown.com',
 	replays: 'replay.pokemonshowdown.com',
 };
-
-exports.client = 'pokemon-showdown-client-production.up.railway.app';
 
 /**
  * crashguardemail - if the server has been running for more than an hour
