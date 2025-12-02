@@ -345,7 +345,7 @@ export class ServerStream extends Streams.ObjectReadWriteStream<string> {
 				// console.log(`static rq: ${req.socket.remoteAddress}:${req.socket.remotePort} -> ${req.socket.localAddress}:${req.socket.localPort} - ${req.method} ${req.url} ${req.httpVersion} - ${req.rawHeaders.join('|')}`);
 				res.setHeader(
 					'Access-Control-Allow-Origin',
-					'https://pokemon-showdown-client-production.up.railway.app'
+					'https://pokemon-showdown-client.up.railway.app'
 				);
 				res.setHeader(
 					'Access-Control-Allow-Methods',
