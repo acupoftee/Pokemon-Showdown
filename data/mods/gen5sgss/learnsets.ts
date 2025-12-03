@@ -4500,6 +4500,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
 		inherit: true,
 		learnset: {
 			attract: ["4M", "3M"],
+			aurasphere: ["4M"],
 			bodyslam: ["3T"],
 			calmmind: ["4M", "4L36", "3M", "3L33", "3S0"],
 			captivate: ["4M"],

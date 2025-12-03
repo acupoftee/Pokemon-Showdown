@@ -395,7 +395,6 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 			abilities: {
 				0: "Synchronize",
 				1: "Magic Guard",
-				H: "Magic Guard",
 			},
 		},
 		kadabra: {
@@ -404,7 +403,6 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 			abilities: {
 				0: "Synchronize",
 				1: "Magic Guard",
-				H: "Magic Guard",
 			},
 		},
 		alakazam: {
@@ -413,7 +411,6 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 			abilities: {
 				0: "Synchronize",
 				1: "Magic Guard",
-				H: "Magic Guard",
 			},
 		},
 		bellsprout: {
@@ -421,7 +418,6 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 
 			abilities: {
 				0: "Gluttony",
-				H: "Gluttony",
 			},
 		},
 		weepinbell: {
@@ -429,7 +425,6 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 
 			abilities: {
 				0: "Gluttony",
-				H: "Gluttony",
 			},
 		},
 		victreebel: {
@@ -437,7 +432,6 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 
 			abilities: {
 				0: "Gluttony",
-				H: "Gluttony",
 			},
 			baseStats: {
 				hp: 80,
@@ -454,7 +448,6 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 			abilities: {
 				0: "Flame Body",
 				1: "Flash Fire",
-				H: "Flame Body",
 			},
 		},
 		rapidash: {
@@ -463,7 +456,6 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 			abilities: {
 				0: "Flame Body",
 				1: "Flash Fire",
-				H: "Flame Body",
 			},
 		},
 		"farfetch’d": {
@@ -1340,7 +1332,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 
 			abilities: {
 				0: "Battle Armor",
-				H: "Unnerve",
+				1: "Sand Stream",
 			},
 		},
 		celebi: {
@@ -1825,7 +1817,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 
 			abilities: {
 				0: "Cloud Nine",
-				H: "Cloud Nine",
+				1: "Natural Cure",
 			},
 			baseStats: {
 				hp: 75,
