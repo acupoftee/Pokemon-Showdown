@@ -30041,6 +30041,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
 			chargebeam: ["4M"],
 			confuseray: ["4L14"],
 			confusion: ["4L1"],
+			curse: ["4L1"],	
 			doubleteam: ["4M"],
 			dreameater: ["4M"],
 			earthquake: ["4M"],

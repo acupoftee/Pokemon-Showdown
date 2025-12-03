@@ -1387,7 +1387,7 @@ export const Pokedex: import("../../../sim/dex-species").ModdedSpeciesDataTable 
 
 			abilities: {
 				0: "Speed Boost",
-				H: "Speed Boost",
+				1: "Blaze",
 			},
 		},
 		mudkip: {
