@@ -311,23 +311,41 @@ export class ServerStream extends Streams.ObjectReadWriteStream<string> {
 
 		// It's optional if you don't need these features.
 
-		this.server = http.createServer();
+		// Create server with CORS middleware
+		this.server = http
+			.createServer((req, res) => {
+				// Wrap the writeHead method to inject CORS headers
+				const originalWriteHead = res.writeHead;
+				res.writeHead = function (statusCode: number, ...args: any[]) {
+					res.setHeader(
+						"Access-Control-Allow-Origin",
+						"https://pokemon-showdown-client.up.railway.app"
+					);
+					res.setHeader(
+						"Access-Control-Allow-Methods",
+						"GET, POST, OPTIONS"
+					);
+					res.setHeader("Access-Control-Allow-Headers", "Content-Type");
+					return originalWriteHead.apply(res, [
+						statusCode,
+						...args,
+					] as any);
+				};
 
-		// Add CORS headers to all requests (before other handlers)
-		this.server.on("request", (req, res) => {
-			res.setHeader(
-				"Access-Control-Allow-Origin",
-				"https://pokemon-showdown-client.up.railway.app"
-			);
-			res.setHeader("Access-Control-Allow-Methods", "GET, POST, OPTIONS");
-			res.setHeader("Access-Control-Allow-Headers", "Content-Type");
+				// Handle OPTIONS preflight request immediately
+				if (req.method === "OPTIONS") {
+					res.writeHead(204);
+					res.end();
+					return;
+				}
 
-			// Handle OPTIONS preflight request
-			if (req.method === "OPTIONS") {
-				res.writeHead(204);
-				res.end();
-			}
-		});
+				// Emit 'request' event for other handlers
+				this.server.emit("request", req, res);
+			})
+			.on("request", () => {
+				// This empty listener prevents the 'request' event from being emitted twice
+				// when we manually emit it above
+			});
 		this.serverSsl = null;
 		if (config.ssl) {
 			let key;
@@ -375,27 +393,52 @@ export class ServerStream extends Streams.ObjectReadWriteStream<string> {
 			if (key && cert) {
 				try {
 					// In case there are additional SSL config settings besides the key and cert...
-					this.serverSsl = https.createServer({
-						...config.ssl.options,
-						key,
-						cert,
-					});
-					this.serverSsl.on("request", (req, res) => {
-						res.setHeader(
-							"Access-Control-Allow-Origin",
-							"https://pokemon-showdown-client.up.railway.app"
-						);
-						res.setHeader(
-							"Access-Control-Allow-Methods",
-							"GET, POST, OPTIONS"
-						);
-						res.setHeader("Access-Control-Allow-Headers", "Content-Type");
+					this.serverSsl = https
+						.createServer(
+							{
+								...config.ssl.options,
+								key,
+								cert,
+							},
+							(req, res) => {
+								// Wrap the writeHead method to inject CORS headers
+								const originalWriteHead = res.writeHead;
+								res.writeHead = function (
+									statusCode: number,
+									...args: any[]
+								) {
+									res.setHeader(
+										"Access-Control-Allow-Origin",
+										"https://pokemon-showdown-client.up.railway.app"
+									);
+									res.setHeader(
+										"Access-Control-Allow-Methods",
+										"GET, POST, OPTIONS"
+									);
+									res.setHeader(
+										"Access-Control-Allow-Headers",
+										"Content-Type"
+									);
+									return originalWriteHead.apply(res, [
+										statusCode,
+										...args,
+									] as any);
+								};
 
-						if (req.method === "OPTIONS") {
-							res.writeHead(204);
-							res.end();
-						}
-					});
+								// Handle OPTIONS preflight request immediately
+								if (req.method === "OPTIONS") {
+									res.writeHead(204);
+									res.end();
+									return;
+								}
+
+								// Emit 'request' event for other handlers
+								this.serverSsl!.emit("request", req, res);
+							}
+						)
+						.on("request", () => {
+							// Empty listener to prevent double emission
+						});
 				} catch (e: any) {
 					crashlogger(
 						new Error(`The SSL settings are misconfigured:\n${e.stack}`),
