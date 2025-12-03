@@ -312,6 +312,22 @@ export class ServerStream extends Streams.ObjectReadWriteStream<string> {
 		// It's optional if you don't need these features.
 
 		this.server = http.createServer();
+
+		// Add CORS headers to all requests (before other handlers)
+		this.server.on("request", (req, res) => {
+			res.setHeader(
+				"Access-Control-Allow-Origin",
+				"https://pokemon-showdown-client.up.railway.app"
+			);
+			res.setHeader("Access-Control-Allow-Methods", "GET, POST, OPTIONS");
+			res.setHeader("Access-Control-Allow-Headers", "Content-Type");
+
+			// Handle OPTIONS preflight request
+			if (req.method === "OPTIONS") {
+				res.writeHead(204);
+				res.end();
+			}
+		});
 		this.serverSsl = null;
 		if (config.ssl) {
 			let key;
@@ -364,6 +380,22 @@ export class ServerStream extends Streams.ObjectReadWriteStream<string> {
 						key,
 						cert,
 					});
+					this.serverSsl.on("request", (req, res) => {
+						res.setHeader(
+							"Access-Control-Allow-Origin",
+							"https://pokemon-showdown-client.up.railway.app"
+						);
+						res.setHeader(
+							"Access-Control-Allow-Methods",
+							"GET, POST, OPTIONS"
+						);
+						res.setHeader("Access-Control-Allow-Headers", "Content-Type");
+
+						if (req.method === "OPTIONS") {
+							res.writeHead(204);
+							res.end();
+						}
+					});
 				} catch (e: any) {
 					crashlogger(
 						new Error(`The SSL settings are misconfigured:\n${e.stack}`),
@@ -384,20 +416,6 @@ export class ServerStream extends Streams.ObjectReadWriteStream<string> {
 				res: http.ServerResponse
 			) => {
 				// console.log(`static rq: ${req.socket.remoteAddress}:${req.socket.remotePort} -> ${req.socket.localAddress}:${req.socket.localPort} - ${req.method} ${req.url} ${req.httpVersion} - ${req.rawHeaders.join('|')}`);
-				res.setHeader(
-					"Access-Control-Allow-Origin",
-					"https://pokemon-showdown-client.up.railway.app"
-				);
-				res.setHeader("Access-Control-Allow-Methods", "GET, POST, OPTIONS");
-				res.setHeader("Access-Control-Allow-Headers", "Content-Type");
-				
-				// Handle OPTIONS preflight request
-				if (req.method === "OPTIONS") {
-					res.writeHead(204);
-					res.end();
-					return;
-				}
-				
 				req.resume();
 				req.addListener("end", () => {
 					if (config.customhttpresponse?.(req, res)) {
